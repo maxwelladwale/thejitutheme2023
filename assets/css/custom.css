@@ -23,23 +23,22 @@
       ) ,
       linear-gradient(
         to right,
-        
         #c32030,
         #c32030
 
-        /* rgba(255, 0, 180, 1),
-        rgba(0, 100, 200, 1) */
     ) !important;
     background-size: 100% 3px, 0 3px !important;
     background-position: 100% 100%, 0 100% !important;
     background-repeat: no-repeat !important;
-    transition: background-size 400ms;
+    transition: background-size 400ms ease-in-out;
   }
   
 .midnav:hover {
     background-size: 0 3px, 100% 3px !important;
     cursor: pointer;
     position: relative;
+    transform: scale(1.03);
+    transition: transform 0.2s ease-in-out;
 }
 
 .midnav i {
@@ -92,32 +91,6 @@
     border-left: none !important;
     border-right: none !important;
 }
-
-/* contact form */
-/* .p-btn{
-    font-family: "articulat" !important;
-    background-color: var(--secondary-color) !important;
-    color: var(--white-color) !important;
-    border-radius: 10px !important;
-    padding: 15px 20px !important;
-    border: none !important;
-    text-transform: uppercase !important;
-	
-	
-	    font-family: "articulat" !important;
-    background-color: var(--secondary-color);
-    color: var(--white-color);
-    border-radius: 10px;
-    padding: 15px 20px;
-    border: none;
-    text-transform: uppercase !important;
-}
-.p-btn:hover{
-    background: var(--white-color) !important;
-    border-color: var(--secondary-color) !important;
-    color: var(--secondary-color) !important;
-	border: 2px solid !important; 
-} */
 
 /* Slider */
 .slick-slide {
