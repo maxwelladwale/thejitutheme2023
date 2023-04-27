@@ -1,7 +1,7 @@
         <?php wp_footer(  )?>
         <footer class="main_footer container-fluid">
             <div class="footer_logo col-sm-12 col-lg-5">
-                <a href="/"><img src="./assets/images/logo-jitu-red.svg" alt="The Jitu Red Company logo"></a>
+                <a href="/"><img src="<?php echo esc_url(get_template_directory_uri());?>/assets/img/logo-jitu-red.svg" alt="The Jitu Red Company logo"></a>
             </div>
             <div class="row col-sm-12 col-lg-7">
                 <div class="f_contacts col-sm-12 col-md-6 col-lg-4">
