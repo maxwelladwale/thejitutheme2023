@@ -110,9 +110,9 @@ get_header();
                         <div class="col-12 d-flex flex-column align-items-center">
                             <h4 class="redtext">Lorem Ipsum</h4>
                             <h3>Lorem Ipsum dolor sit amet, onsectetuer</h3>
-                            <p class="py-3 col-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis tenetur et autem explicabo pariatur itaque tempore voluptatum facere dolore veritatis, sapiente adipisci dolor deserunt sit quia quis deleniti eum ipsam!</p>
+                            <p class="py-3 col-lg-6 col-sm-12">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis tenetur et autem explicabo pariatur itaque tempore voluptatum facere dolore veritatis, sapiente adipisci dolor deserunt sit quia quis deleniti eum ipsam!</p>
                         </div>
-                        <div class="col">
+                        <div class="col-lg-4 col-sm-12">
                             <div class="card">
                                 <img src="<?php echo get_template_directory_uri()?>/assets/img/icons/testimonial.png" class="img-thumbnail" alt="">
                                 <div class="card-body">
@@ -122,7 +122,7 @@ get_header();
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-lg-4 col-sm-12">
                             <div class="card">
                                 <img src="<?php echo get_template_directory_uri()?>/assets/img/icons/testimonial.png" class="img-thumbnail" alt="">
                                 <div class="card-body">
@@ -132,7 +132,7 @@ get_header();
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-lg-4 col-sm-12">
                             <div class="card">
                                 <img src="<?php echo get_template_directory_uri()?>/assets/img/icons/testimonial.png" class="img-thumbnail" alt="">
                                 <div class="card-body">
@@ -181,7 +181,7 @@ get_header();
             <div class="mt-5 mb-5">
                 <div class="container">
                     <div class="row py-5">
-                        <div class="col">
+                        <div class="col-lg-6 col-sm-12">
                             <h2 class="redtext text-uppercase">Let's Discuss Your<br/> Next Project</h2>
                             <p>
                                 Fill out the form or call us to set up a meeting. We’ll be happy to discuss your stang needs in detail, provide estimates, and answer all your questions.
