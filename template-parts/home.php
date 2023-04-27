@@ -16,7 +16,7 @@ get_header();
             <div class="container-fluid banner vh-100 d-flex align-items-center">
                 <div class="container">
                     <div class="row align-items-start">
-                        <div class="col">
+                        <div class="col-sm-12 col-lg-6 col-md-6">
                             <h1>Lorem ipsum dolor sit amet <span class="redtext">consectetur</span> adipisicing.</h1>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ratione eum laborum? Facere temporibus voluptas nemo distinctio inventore omnis repellendus ratione quisquam numquam commodi, cum veritatis quibusdam pariatur. Maiores, aperiam?
