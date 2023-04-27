@@ -16,7 +16,7 @@ get_header();
             <div class="container-fluid banner vh-100 d-flex align-items-center">
                 <div class="container">
                     <div class="row align-items-start">
-                        <div class="col-sm-12 col-lg-6 col-md-6">
+                        <div class="col-sm-12 col-lg-6 col-md-6 animated bounceInDown">
                             <h1>Lorem ipsum dolor sit amet <span class="redtext">consectetur</span> adipisicing.</h1>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ratione eum laborum? Facere temporibus voluptas nemo distinctio inventore omnis repellendus ratione quisquam numquam commodi, cum veritatis quibusdam pariatur. Maiores, aperiam?
@@ -35,12 +35,12 @@ get_header();
         <section class="section">
             <div class="container">
                 <div class="row mt-5 mb-5">
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6 col-sm-12 animated bounceInLeft">
                         <h3 class="redtext">Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
                         <p class="mt-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sunt aliquam iure quasi perferendis, esse cumque sequi qui necessitatibus nam dolorem aspernatur fugiat! Nam nihil nostrum explicabo ipsa suscipit nisi.</p>
                     </div>
     
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6 col-sm-12 animated bounceInRight">
 
                         <!--Card Begin-->
                         <a href="">
@@ -107,12 +107,12 @@ get_header();
             <div class="testimonials mb-5">
                 <div class="container">
                     <div class="row py-5 text-center">
-                        <div class="col-12 d-flex flex-column align-items-center">
+                        <div class="col-12 d-flex flex-column align-items-center animated bounceIn">
                             <h4 class="redtext">Lorem Ipsum</h4>
                             <h3>Lorem Ipsum dolor sit amet, onsectetuer</h3>
                             <p class="py-3 col-lg-6 col-sm-12">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis tenetur et autem explicabo pariatur itaque tempore voluptatum facere dolore veritatis, sapiente adipisci dolor deserunt sit quia quis deleniti eum ipsam!</p>
                         </div>
-                        <div class="col-lg-4 col-sm-12">
+                        <div class="col-lg-4 col-sm-12 animated bounceInLeft">
                             <div class="card">
                                 <img src="<?php echo get_template_directory_uri()?>/assets/img/icons/testimonial.png" class="img-thumbnail" alt="">
                                 <div class="card-body">
@@ -122,7 +122,7 @@ get_header();
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-12">
+                        <div class="col-lg-4 col-sm-12 animate bounceIn">
                             <div class="card">
                                 <img src="<?php echo get_template_directory_uri()?>/assets/img/icons/testimonial.png" class="img-thumbnail" alt="">
                                 <div class="card-body">
@@ -132,7 +132,7 @@ get_header();
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-12">
+                        <div class="col-lg-4 col-sm-12 animated bounceInRight">
                             <div class="card">
                                 <img src="<?php echo get_template_directory_uri()?>/assets/img/icons/testimonial.png" class="img-thumbnail" alt="">
                                 <div class="card-body">
@@ -152,14 +152,14 @@ get_header();
         
         <!-- THH FAMILY -->
         <section class="section">
-            <div class="container-fluid mt-5 mb-5"> 
+            <div class="container-fluid mt-5 mb-5 animated bounceInRight"> 
                 <div class="container text-center ">
                     <h3 class="text-uppercase">We are part of the THH-LLC <br> technology family</h3>
                     <p>THE JITU brings dedicated remote software engineers from Kenya to the world, providing reliability and adaptability across business challenges to empowere IT teams.</p>
                 </div>
             </div>
 
-            <div class="container">
+            <div class="container animated bounceInLeft">
                 <section class="customer-logos slider">
                     <div class="slide"><img src="<?php echo get_template_directory_uri()?>/assets/img/familylogos/AcquireTek.png"></div>
                     <div class="slide"><img src="<?php echo get_template_directory_uri()?>/assets/img/familylogos/CarveOS.png"></div>
@@ -177,7 +177,7 @@ get_header();
         </section>
 
         <!-- CONTACT US -->
-        <section class="section jitucontact">
+        <section class="section jitucontact animated bounceInUp">
             <div class="mt-5 mb-5">
                 <div class="container">
                     <div class="row py-5">
