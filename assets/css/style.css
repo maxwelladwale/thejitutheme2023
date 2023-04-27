@@ -87,4 +87,77 @@ a {
     text-decoration: none !important;
 }
 
+/* Navbar Styling  */
+
+.nav-lev1{
+    justify-content: end;
+}
+
+.bg-jitu{
+    --bs-bg-opacity: 1;
+    background-color: var(--primary-color)!important;
+}
+.link_p{
+    font-family: var(--secondary-font) !important;
+    font-size: 1.1em;
+}
+.link_p2{
+    font-family: var(--main-font);
+    font-size: 1.5em;
+}
+.ul1{
+    gap: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.ul2{
+    gap: 30px;
+}
+.bound{
+    content: '';
+    margin-right: 2px;
+    display: block;
+    width: 1px;
+    border-right: 1px solid --black-color;
+    height: 20px;
+    margin-top: 0.4em;
+}
+
+/* Spacer */
+.spacer{
+    margin-bottom: 100px;
+}
+
+/* Footer */
+.main_footer{
+    display: flex;
+    flex-direction: row;
+    background-image: url("../images/image.jpg"), linear-gradient(rgba(0, 0, 0, 0.707),rgba(0,0,0,0.7));
+    background-blend-mode: overlay;
+}
+.footer_logo>a>img{
+    width: 200px;
+    margin: 40px;
+}
+
+.f_contacts, .f_quicklinks, .f_ourtechfam{
+    color: var(--white-color);
+    font-size: 1.25em;
+    font-weight: 200;
+}
+.f_contacts ul li, .f_quicklinks ul li, .f_ourtechfam ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.f_contacts ul, .f_quicklinks ul, .f_ourtechfam ul{
+    padding-left: 0;
+}
+.link_r{
+    /* display: flex; */
+    width: 20%;
+}
+.link_l{
+    width: 80%;
+}
   
