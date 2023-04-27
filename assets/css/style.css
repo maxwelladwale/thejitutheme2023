@@ -133,7 +133,9 @@ a {
 .main_footer{
     display: flex;
     flex-direction: row;
-    background-image: url("../images/image.jpg"), linear-gradient(rgba(0, 0, 0, 0.707),rgba(0,0,0,0.7));
+    background-image: url("../img/footer/footer.jpg"), linear-gradient(rgba(0, 0, 0, 0.707),rgba(0,0,0,0.7));
+    background-position: center;
+    background-size: cover;
     background-blend-mode: overlay;
 }
 .footer_logo>a>img{

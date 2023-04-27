@@ -5,13 +5,12 @@
     }
     .f_contacts, .f_quicklinks, .f_ourtechfam{
         margin-bottom: 30px;
+        padding-left: 40px !important;
     }
     .footer_logo>a>img{
         margin: 20px 0px;
     }
-    .f_contacts, .f_quicklinks, .f_ourtechfam.f_contacts, .f_quicklinks, .f_ourtechfam{
-        padding-left: 40px;
-    }
+
     #d_topbar{
         display: none;
     }
@@ -39,13 +38,12 @@
     }
     .f_contacts, .f_quicklinks, .f_ourtechfam{
         margin-bottom: 30px;
+        padding-left: 40px !important;
     }
     .footer_logo>a>img{
         margin: 20px 0px;
     }
-    .f_contacts, .f_quicklinks, .f_ourtechfam.f_contacts, .f_quicklinks, .f_ourtechfam{
-        padding-left: 40px;
-    }
+
     #d_topbar{
         display: none;
     }
@@ -73,8 +71,8 @@
     .footer_logo>a>img{
         margin: 20px 0px;
     }
-    .f_contacts, .f_quicklinks, .f_ourtechfam.f_contacts, .f_quicklinks, .f_ourtechfam{
-        padding-left: 40px;
+    .f_contacts, .f_quicklinks, .f_ourtechfam{
+        padding-left: 40px ip !important;
     }
     #d_topbar{
         display: none;

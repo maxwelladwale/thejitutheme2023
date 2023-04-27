@@ -35,7 +35,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="./assets/images/logo-jitu-red.svg" alt="The Jitu Red Company logo" width="150" class="d-inline-block align-text-top">
+                    <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/img/logo-jitu-red.svg" alt="The Jitu Red Company logo" width="150" class="d-inline-block align-text-top">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
