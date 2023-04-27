@@ -1,0 +1,115 @@
+@media only screen and (max-width: 600px) {
+    .main_footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .f_contacts, .f_quicklinks, .f_ourtechfam{
+        margin-bottom: 30px;
+    }
+    .footer_logo>a>img{
+        margin: 20px 0px;
+    }
+    .f_contacts, .f_quicklinks, .f_ourtechfam.f_contacts, .f_quicklinks, .f_ourtechfam{
+        padding-left: 40px;
+    }
+    #d_topbar{
+        display: none;
+    }
+    .ul2{
+        gap: 10px;
+    }
+    #extra_linkz{
+        display: flex;
+        flex-direction: row;
+        font-size: 0.7em;
+        justify-content: center;
+    }
+    #extra_linkz div:not(:last-child){
+        /* border-right-style: solid; */
+        border-right: 1px solid black;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+}
+@media only screen and (min-width: 600px) {
+    .main_footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .f_contacts, .f_quicklinks, .f_ourtechfam{
+        margin-bottom: 30px;
+    }
+    .footer_logo>a>img{
+        margin: 20px 0px;
+    }
+    .f_contacts, .f_quicklinks, .f_ourtechfam.f_contacts, .f_quicklinks, .f_ourtechfam{
+        padding-left: 40px;
+    }
+    #d_topbar{
+        display: none;
+    }
+    .ul2{
+        gap: 10px;
+    }
+    #extra_linkz{
+        display: flex;
+        flex-direction: row;
+        font-size: 0.7em;
+        justify-content: center;
+    }
+    #extra_linkz div:not(:last-child){
+        /* border-right-style: solid; */
+        border-right: 1px solid black;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .main_footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_logo>a>img{
+        margin: 20px 0px;
+    }
+    .f_contacts, .f_quicklinks, .f_ourtechfam.f_contacts, .f_quicklinks, .f_ourtechfam{
+        padding-left: 40px;
+    }
+    #d_topbar{
+        display: none;
+    }
+    .ul2{
+        gap: 10px;
+    }
+    #extra_linkz{
+        display: flex;
+        flex-direction: row;
+        font-size: 0.7em;
+        justify-content: center;
+    }
+    #extra_linkz div:not(:last-child){
+        /* border-right-style: solid; */
+        border-right: 1px solid black;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .main_footer{
+        display: flex;
+        flex-direction: row;
+    }
+    .f_contacts, .f_quicklinks, .f_ourtechfam{
+        padding: 50px 0px 0px 0px;
+    }
+    #d_topbar{
+        display: block;
+    }
+    .ul2{
+        gap: 30px;
+    }
+    #extra_linkz{
+        display: none;
+    }
+}
