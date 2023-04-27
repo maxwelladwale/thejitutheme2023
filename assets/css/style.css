@@ -1,0 +1,89 @@
+:root {
+    --beige-color: #FCF5F5;
+    --dimgrey-color: #F4F4F4;
+    --white-color: #FFFFFF;
+    --secondary-color: #F68B2A;
+    --primary-color: #C3202F;
+    --black-color: black;
+}
+
+@font-face {
+    font-family: 'sofiapro';
+    src: url('../font/sofiapro-light-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+font-family: 'articulat';
+src: url('../font/ArticulatCF-Medium.woff2') format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+  
+  
+body {
+    font-family: 'sofiapro', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000;
+    white-space: normal;
+}
+
+
+
+h1,
+h2 {
+    font-family: "articulat" !important;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+h3,
+h4 {
+    font-family: 'articulat' !important;
+    font-weight: 600 !important;
+    font-size: 30px;
+}
+h5 {
+    font-family: 'articulat' !important;
+    text-transform: uppercase;
+}
+p {
+    font-family: "sofiapro";
+    font-weight: 400;
+    font-size: 18px;
+    margin: 5px 0px 20px 0px;
+    line-height: 2.06em;
+}
+
+button {
+    font-family: "articulat" !important;
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    border-radius: 10px;
+    padding: 15px 20px;
+    border: none;
+    text-transform: uppercase !important;
+}
+
+button:hover{
+    background-color: var(--white-color);
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.section{
+    margin: 80px 0 0 0 !important;
+}
+
+i {
+    color: var(--primary-color);
+    font-size: 20px
+}
+
+a {
+    text-decoration: none !important;
+}
+
+  
