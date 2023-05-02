@@ -15,12 +15,25 @@
                 </div>
                 <div class="f_quicklinks col-sm-12 col-md-6 col-lg-4">
                     <h3>Quick Links</h3>
-                    <ul>
+                    <!-- <ul>
                         <li><a href="#">Technology</a></li>
                         <li><a href="#">BPO</a></li>
 						<li><a href="#">Training</a></li>
 						<li><a href="#">Careers</a></li>
-                    </ul>
+                    </ul> -->
+
+                    <?php
+                        wp_nav_menu( array(
+                            'theme_location'  => 'footer-menu',
+                            'depth'           => 1, // 1 = no dropdowns, 2 = with dropdowns.
+                            'container'       => 'ul',
+                            'container_class' => 'f_quicklinks col-sm-12 col-md-6 col-lg-4',
+                            'container_id'    => '',
+                            'menu_class'      => '',
+                            'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                            'walker'          => new WP_Bootstrap_Navwalker(),
+                        ) );
+                    ?>
                 </div>
                 <div class="f_ourtechfam col-sm-12 col-md-6 col-lg-4">
                     <h3>Our Technology Family</h3>
