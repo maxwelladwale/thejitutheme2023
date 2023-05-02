@@ -5,7 +5,7 @@
     --secondary-color: #F68B2A;
     --primary-color: #C3202F;
     --black-color: black;
-	--fontweight: 18px;
+	--fontsize: 16px;
 }
 
 @font-face {
@@ -25,7 +25,7 @@ font-style: normal;
   
 body {
     font-family: 'sofiapro', sans-serif;
-    font-size: var(--fontweight);
+    font-size: var(--fontsize);
     line-height: 1.5;
     color: #000;
     white-space: normal;
@@ -53,7 +53,7 @@ h5 {
 p {
     font-family: "sofiapro";
     font-weight: 400;
-    font-size: 18px;
+    font-size: var(--fontsize);
     margin: 5px 0px 20px 0px;
     line-height: 2.06em;
 }
@@ -81,7 +81,7 @@ button:hover{
 
 i {
     color: var(--primary-color);
-    font-size: 20px
+    font-size: var(--fontsize)
 }
 
 a {
@@ -150,7 +150,7 @@ a {
 
 .f_contacts, .f_quicklinks, .f_ourtechfam{
     color: var(--white-color);
-    font-size: var(--fontweight);
+    font-size: var(--fontsize);
     font-weight: 200;
 }
 .f_contacts ul li, .f_quicklinks ul li, .f_ourtechfam ul li{
