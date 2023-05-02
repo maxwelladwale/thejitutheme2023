@@ -1,4 +1,4 @@
-        <?php wp_footer(  )?>
+<?php wp_footer(  )?>
         <footer class="main_footer container-fluid">
             <div class="footer_logo col-sm-12 col-lg-5">
                 <a href="/"><img src="<?php echo esc_url(get_template_directory_uri());?>/assets/img/logo-jitu-red.svg" alt="The Jitu Red Company logo"></a>
@@ -16,20 +16,20 @@
                 <div class="f_quicklinks col-sm-12 col-md-6 col-lg-4">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li>Technology</li>
-                        <li>BPO</li>
-                        <li>Training</li>
-                        <li>Careers</li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">BPO</a></li>
+						<li><a href="#">Training</a></li>
+						<li><a href="#">Careers</a></li>
                     </ul>
                 </div>
                 <div class="f_ourtechfam col-sm-12 col-md-6 col-lg-4">
                     <h3>Our Technology Family</h3>
                     <ul>
-                        <li>AcquireTek</li>
-                        <li>Carveos</li>
-                        <li>Eclipse Reality</li>
-                        <li>Griffin Technology Solutions</li>
-                        <li>K2 Data Technologies</li>
+						<li><a href="#">AcquireTek</a></li>
+						<li><a href="#">Carveos</a></li>
+						<li><a href="#">Eclipse Reality</a></li>
+						<li><a href="#">Griffin Technology Solutions</a></li>
+						<li><a href="#">K2 Data Technologies</a></li>
                     </ul>
                 </div>
             </div>
