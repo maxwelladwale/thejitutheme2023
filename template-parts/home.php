@@ -13,7 +13,7 @@ get_header();
 ?>
         <!-- BANNER -->
         <section style="box-shadow: 0px 6px 9px 5px rgba(0, 0, 0, 0.1);">
-            <div class="container-fluid banner vh-100 d-flex align-items-center">
+            <div class="container-fluid banner d-flex align-items-center" style="height:80vh">
                 <div class="container">
                     <div class="row align-items-start">
                         <div class="col-sm-12 col-lg-6 col-md-6">
@@ -32,7 +32,7 @@ get_header();
         </section>
 
         <!-- MID NAV -->
-        <section class="section">
+        <section class="section pb-5">
             <div class="container">
                 <div class="row mt-5 mb-5">
                     <div class="col-md-6 col-sm-12">
@@ -43,7 +43,7 @@ get_header();
                     <div class="col-md-6 col-sm-12">
 
                         <!--Card Begin-->
-                        <a href="">
+                        <a href="#">
                             <div class="card mb-3 midnav">
                             <div class="row">
                                 <div class="col-md-2 d-flex align-items-center justify-content-center">
@@ -62,37 +62,41 @@ get_header();
                         <!--Card End-->
 
                         <!--Card Begin-->
-                        <div class="card mb-3 midnav">
-                            <div class="row">
-                                <div class="col-md-2 d-flex align-items-center justify-content-center">
-                                    <!-- <i class="ri-bar-chart-grouped-fill"></i> -->
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/icons/bpo.png" class="img-thumbnail" alt="">
-                                </div>
-                                <div class="col-md-10">
-                                    <div class="card-body">
-                                        <h5 class="card-title">BPO</h5>
-                                        <p class="card-text">Card text goes here.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+						<a href="#">
+							<div class="card mb-3 midnav">
+								<div class="row">
+									<div class="col-md-2 d-flex align-items-center justify-content-center">
+										<!-- <i class="ri-bar-chart-grouped-fill"></i> -->
+										<img src="<?php echo get_template_directory_uri()?>/assets/img/icons/bpo.png" class="img-thumbnail" alt="">
+									</div>
+									<div class="col-md-10">
+										<div class="card-body">
+											<h5 class="card-title">BPO</h5>
+											<p class="card-text">Card text goes here.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
                         <!--Card End-->
 
                         <!--Card Begin-->
-                        <div class="card mb-3 midnav">
-                            <div class="row">
-                                <div class="col-md-2 d-flex align-items-center justify-content-center">
-                                    <!-- <i class="ri-graduation-cap-line"></i>  -->
-                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/icons/training.png" class="img-thumbnail" alt="">
-                                </div>
-                                <div class="col-md-10">
-                                    <div class="card-body">
-                                        <h5 class="card-title">TRAINING</h5>
-                                        <p class="card-text">Card text goes here.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+						<a href="#">
+							<div class="card mb-3 midnav">
+								<div class="row">
+									<div class="col-md-2 d-flex align-items-center justify-content-center">
+										<!-- <i class="ri-graduation-cap-line"></i>  -->
+										<img src="<?php echo get_template_directory_uri()?>/assets/img/icons/training.png" class="img-thumbnail" alt="">
+									</div>
+									<div class="col-md-10">
+										<div class="card-body">
+											<h5 class="card-title">TRAINING</h5>
+											<p class="card-text">Card text goes here.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
                         <!--Card End-->
 
                     </div>
@@ -178,7 +182,7 @@ get_header();
 
         <!-- CONTACT US -->
         <section class="section jitucontact">
-            <div class="mt-5 mb-5">
+            <div class="mt-5 pb-5">
                 <div class="container">
                     <div class="row py-5">
                         <div class="col-lg-6 col-sm-12">
