@@ -18,7 +18,7 @@
     <body <?php body_class(); ?>>
         <nav class="navbar navbar-expand-lg navbar-dark bg-jitu" id="d_topbar">
             <div class="container menu-cont">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ul1">
+                <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0 ul1">
                     <li class="nav-item">
                         <a class="nav-link active link_p" aria-current="page" href="#">About</a>
                     </li>
@@ -28,7 +28,21 @@
                     <li class="nav-item">
                         <a class="nav-link link_p" href="#">Contacts</a>
                     </li>
-                </ul>
+                </ul> -->
+
+                <?php
+                        wp_nav_menu( array(
+                            'theme_location'  => 'top-bar',
+                            'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
+                            'container'       => 'ul',
+                            'container_class' => 'container menu-cont',
+                            'container_id'    => '',
+                            'menu_class'      => 'navbar-nav me-auto mb-2 mb-lg-0 ul1',
+                            'menu-item'		  => 'nav-item',
+                            'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                            'walker'          => new WP_Bootstrap_Navwalker(),
+                        ) );
+                    ?>
             </div> 
         </nav>
 
@@ -37,9 +51,9 @@
                 <a class="navbar-brand" href="#">
                     <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/img/logo-jitu-red.svg" alt="The Jitu Red Company logo" width="150" class="d-inline-block align-text-top">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+                </div>
                 <div class="nav-lev1 collapse navbar-collapse" id="navbarText">
                     <div>
                         <span id="extra_linkz">
@@ -48,11 +62,26 @@
                             <div style="padding-left: 20px;"><a class="nav-link link_p2" href="#">Contacts</a></div>
                         </span>
                     </div>
-                    <div class="navbar-nav ul2">
+
+                    <!-- <div class="navbar-nav ul2">
                         <a class="nav-link active link_p2" aria-current="page" href="#">Technology</a>
                         <a class="nav-link link_p2" href="#">BPO</a>
                         <a class="nav-link link_p2" href="#">Training</a>
-                    </div>
+                    </div> -->
+
+                    <?php
+                        wp_nav_menu( array(
+                            'theme_location'  => 'top-menu',
+                            'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
+                            'container'       => 'div',
+                            'container_class' => 'nav-lev1 collapse navbar-collapse',
+                            'container_id'    => 'navbarText',
+                            'menu_class'      => 'navbar-nav ul2',
+                            'menu-item'		  => 'nav-link',
+                            'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                            'walker'          => new WP_Bootstrap_Navwalker(),
+                        ) );
+                    ?>
                 </div>
             </div>
         </nav>
