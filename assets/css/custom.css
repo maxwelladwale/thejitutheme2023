@@ -10,7 +10,9 @@
 .banner p{
 	font-size: 18px;
 }
-
+.banner h1{
+    text-transform: uppercase;
+}
 .redtext{
     color: #C3202F;
 }
