@@ -17,7 +17,7 @@ get_header();
                 <div class="container">
                     <div class="row align-items-start">
                         <div class="col-sm-12 col-lg-6 col-md-6">
-                            <h1>Augment your team <span class="redtext">accelerate </span> your success!</h1>
+                            <h1 class="banner_h1">Augment your team <span class="redtext">accelerate </span> your success!</h1>
                             <p>
 								At THE Jitu, we offer comprehensive suite of services that helps your organization reduce costs, increase productivity, and gain access to top-notch talent. We take pride in offering customized and personalized solutions that cater to the unique needs of each company we work with.
                             </p>
@@ -44,7 +44,7 @@ get_header();
 
                         <!--Card Begin-->
                         <a href="#">
-                            <div class="card mb-3 midnav border-0">
+                            <div class="card mb-3 midnav">
                             <div class="row">
                                 <div class="col-md-2 d-flex align-items-center justify-content-center">
                                     <!-- <i class="ri-cpu-line"></i>  -->
@@ -63,7 +63,7 @@ get_header();
 
                         <!--Card Begin-->
 						<a href="#">
-							<div class="card mb-3 midnav border-0">
+							<div class="card mb-3 midnav">
 								<div class="row">
 									<div class="col-md-2 d-flex align-items-center justify-content-center">
 										<!-- <i class="ri-bar-chart-grouped-fill"></i> -->
@@ -82,7 +82,7 @@ get_header();
 
                         <!--Card Begin-->
 						<a href="#">
-							<div class="card mb-3 midnav border-0">
+							<div class="card mb-3 midnav">
 								<div class="row">
 									<div class="col-md-2 d-flex align-items-center justify-content-center">
 										<!-- <i class="ri-graduation-cap-line"></i>  -->
