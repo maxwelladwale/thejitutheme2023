@@ -13,11 +13,11 @@ get_header();
 ?>
         <!-- BANNER -->
         <section style="box-shadow: 0px 6px 9px 5px rgba(0, 0, 0, 0.1);">
-            <div class="container-fluid banner d-flex align-items-center" style="height:100vh">
+            <div class="container-fluid banner d-flex align-items-center" style="height:90vh">
                 <div class="container">
                     <div class="row align-items-start">
                         <div class="col-sm-12 col-lg-6 col-md-6">
-                            <h1>Augment your team <span class="redtext">accelerate </span> your success!</h1>
+                            <h1 class="banner_h1">Augment your team <span class="redtext">accelerate </span> your success!</h1>
                             <p>
 								At THE Jitu, we offer comprehensive suite of services that helps your organization reduce costs, increase productivity, and gain access to top-notch talent. We take pride in offering customized and personalized solutions that cater to the unique needs of each company we work with.
                             </p>

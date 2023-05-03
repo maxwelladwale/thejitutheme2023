@@ -29,6 +29,10 @@
         padding-right: 20px;
         padding-left: 20px;
     }
+    .banner_h1{
+        margin-bottom: 40px;
+        margin-top: -40px;
+    }
     
 }
 @media only screen and (min-width: 600px) {
@@ -61,6 +65,10 @@
         border-right: 1px solid black;
         padding-right: 20px;
         padding-left: 20px;
+    }
+    .banner_h1{
+        margin-bottom: 40px;
+        margin-top: -40px;
     }
 }
 @media only screen and (min-width: 768px) {
