@@ -58,7 +58,7 @@ p {
     line-height: 2.06em;
 }
 
-button {
+.button {
     font-family: "articulat" !important;
     background-color: var(--secondary-color) !important;
     color: var(--white-color) !important;
@@ -68,7 +68,7 @@ button {
     text-transform: uppercase !important;
 }
 
-button:hover{
+.button:hover{
     background-color: var(--white-color) !important;
 	background: var(--white-color) !important;
     border-color: var(--secondary-color) !important;
@@ -167,4 +167,61 @@ a {
 .link_l{
     width: 80%;
 }
+
+.landing{
+    display: flex;
+    flex-direction: column;
+}
   
+#sdlc{
+    background-color: #40413F !important; 
+}
+
+.bg-benefits{
+    background-image: url("https://cdn.pixabay.com/photo/2015/06/22/08/38/siblings-817369_960_720.jpg");
+    width: 100vw;
+    height: 90vh; 
+}
+
+.sw_subheading {
+    text-transform: none;
+}
+
+.sw_lifeCycle{
+    background-color: #FFFFFF;
+    padding: 100px;
+    line-height: 5.3;
+    text-align: left;
+    padding: 49px;
+    border-radius: 0px 15px 15px 0px;
+    margin-top: -200px;
+    box-shadow: 5px, 10px, 5px, 10px white;
+     
+}
+
+.process{
+    background-color: #FDFDFD;
+}
+
+.stages{
+    padding-right: 20px !important;
+padding-top: 15px;
+}
+
+.border_stage{
+    padding-top: 20px;
+   background-color:  linear-gradient(to left, #4C4647,#A65348,#D33733);
+}
+
+.closing_p{
+    font-weight: bold;
+}
+
+#wpforms-submit-12{
+    background-color: #F68B2A;
+}
+
+#wpforms-submit-12:hover{
+    background-color: #FFFFFF;
+    color: #F68B2A;
+}

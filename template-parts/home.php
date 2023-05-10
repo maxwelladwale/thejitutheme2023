@@ -200,7 +200,7 @@ get_header();
                             </span>
                         </div>
                         <div class="col">
-                            <?php echo do_shortcode('[wpforms id="7"]'); ?>
+                            <?php echo do_shortcode('[wpforms id="12"]'); ?>
                         </div>
                     </div>
                 </div>
