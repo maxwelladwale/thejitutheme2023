@@ -48,7 +48,9 @@ get_header();
                             <h1 class="redtext">Multi-Country Processes</h1>
                             <h4>
                             <span class="redtext">We pride ourselves on being a truly global organization.</span> With teams located in both the United States and Kenya, we can offer our clients the benefits of multi-country processes.</h4>
-                            <p>Our teams in both countries are highly skilled and experienced in web development, and work in their own time zones to ensure maximum efficiency and client satisfaction. This means that we can offer 24/7 support to our clients, regardless of where they are located.</p>
+                            <p>
+                                Our teams in both countries are highly skilled and experienced in web development, and work in their own time zones to ensure maximum efficiency and client satisfaction. This means that we can offer 24/7 support to our clients, regardless of where they are located.
+                            </p>
                         </div>
                     </div>
                     </div>
@@ -62,9 +64,92 @@ get_header();
                 <div class="container">
                     <div class="row py-5 text-center">
                         <div class="col-12 d-flex flex-column align-items-center">
-                            <h2 class="redtext">Our multi-country processes offer several benefits to our clients, including:</h2>
+                            <h2 class="redtext header_text">Our multi-country processes offer several benefits to our clients, including:</h2>
                         </div>
-                        <!-- missimg contents -->
+                     
+                        <div class="row mt-5 mb-5 muliple_processes">
+                        <div class="col-md-6 col-sm-12">
+
+                        <div class="d-flex align-items-start sm-12">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            
+                            <button class="nav-link no_bg_blue active" id="v-pills-turnaround-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                
+                            <!-- <img class="plus" src="<?php echo get_template_directory_uri()?>/assets/img/icons/plus-circle.svg" class="img-thumbnail" alt=""> -->
+                                <h6 class="btn_mutiple">
+                                    Faster Turnaround Times
+                                </h6>
+                            </button>
+                            <hr>
+
+                            <button class="nav-link no_bg_blue " id="v-pills-flexiblity-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                <h6 class="btn_mutiple">
+                                    Greater Flexibility
+                                </h6>
+                            </button>
+                            <hr>
+
+                            <button class="nav-link no_bg_blue " id="v-pills-quality-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                                <h6 class="btn_mutiple">
+                                    Better Quality
+                                </h6>
+                            </button>
+                            <hr>
+
+                            <button class="nav-link no_bg_blue " id="v-pills-davings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                                <h6 class="btn_mutiple">
+                                    Cost savings
+                                </h6>
+                            </button>
+                            <hr>
+
+                        </div>
+
+                        <div class="tab-content content " id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+
+                                <p>
+                                    With teams working in different time zones, we can complete projects faster than companies with only one location. This means that our clients can get their projects completed faster, without sacrificing quality.
+                                </p>
+                                <div>
+                                    <button class="button">VIEW OUR SERVICES</button>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                <p>
+                                    
+                                    Our multi-country processes mean we provide our clients with more flexibility in project timelines and scheduling. We can work around our clients' schedules, ensuring their projects are completed on time and within budget.
+
+                                </p>
+                                <div>
+                                    <button class="button">VIEW OUR SERVICES</button>
+                                </div>
+                        </div>
+                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                <p>
+
+                                    With teams in both the United States and Kenya, we offer our clients the benefits of diverse perspectives and expertise. This means that our clients receive higher-quality services that meet their specific needs.
+                                </p>
+                                <div>
+                                    <button class="button">VIEW OUR SERVICES</button>
+                                </div>
+                        </div>
+                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                
+                            <p>
+
+                                By utilizing offshore teams, we offer our clients cost savings without sacrificing quality. This means that our clients receive high-quality web development services at a more affordable price.
+                            </p>
+                            <div class ="view">
+                                    <button class="button">VIEW OUR SERVICES</button>
+                                </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+</div>
+
                         <div class="col-12 d-flex flex-column align-items-center">
                             <p >We are committed to delivering exceptional services that meet the needs of our clients. By utilizing multi-country processes, we provide our clients with faster turnaround times, greater flexibility, better quality, and cost savings.</p>
                         </div>
@@ -76,9 +161,7 @@ get_header();
         </section>
 
         <!-- software development life-cycle -->
-        
-        
-        
+                
         <section class="section">
             <div class="container"> 
                 <div class="bg-benefits">
@@ -103,8 +186,8 @@ get_header();
                         <h1 class="redtext">Our SDLC process consists of the following stages:</h1>
                     <img src="<?php echo get_template_directory_uri()?>/assets/img/icons/audi.jpg" class="img-thumbnail" alt="">
 <!-- line -->
-                    <span class="border_stage">
-                        <hr>
+                    <span >
+                        <hr class="border_stage">
                     </span>
 
                     <p class="closing_p">By following our comprehensive SDLC process, we ensure that our clients receive high-quality web development services that are delivered on time and within budget. Let us utilize our experience and help you achieve your business goals through effective software development.</p>
