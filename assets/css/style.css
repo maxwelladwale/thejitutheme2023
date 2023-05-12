@@ -168,11 +168,22 @@ a {
     width: 80%;
 }
 
+.gapBtn{
+    display: flex;
+    row-gap: 10px;
+}
+
+
+.process_banner{
+    background-color: transparent !important;
+    border: 1px solid white !important;
+}
+
 .landing{
     display: flex;
     flex-direction: column;
 }
-g
+
 .land_btn{
     display: flex;
     gap: 10px;     
