@@ -146,7 +146,6 @@ get_header();
                             <h5>4Cloud Services </h5>
                             <h6>Joshua Sarno</h6>
                             <p>"Partnering with The Jitu has allowed our company to expand service levels and decrease response time, enabling us to better focus and expand our client base. Great talent and commitment from everyone involved." </p>
-                        </div>
                     </div>
                 </div>
 
