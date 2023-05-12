@@ -58,7 +58,7 @@ p {
     line-height: 2.06em;
 }
 
-.button {
+button {
     font-family: "articulat" !important;
     background-color: var(--secondary-color) !important;
     color: var(--white-color) !important;
@@ -68,7 +68,7 @@ p {
     text-transform: uppercase !important;
 }
 
-.button:hover{
+button:hover{
     background-color: var(--white-color) !important;
 	background: var(--white-color) !important;
     border-color: var(--secondary-color) !important;
@@ -172,7 +172,7 @@ a {
     display: flex;
     flex-direction: column;
 }
-
+g
 .land_btn{
     display: flex;
     gap: 10px;     
@@ -224,15 +224,6 @@ padding-top: 15px;
 
 .closing_p{
     font-weight: bold;
-}
-
-#wpforms-submit-12{
-    background-color: #F68B2A;
-}
-
-#wpforms-submit-12:hover{
-    background-color: #FFFFFF;
-    color: #F68B2A;
 }
 
 .border_stage{
