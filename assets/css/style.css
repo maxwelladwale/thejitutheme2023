@@ -187,9 +187,9 @@ g
     background-color: #FFFFFF !important;
 }
 .bg-benefits{
-    background-image: url("https://cdn.pixabay.com/photo/2015/06/22/08/38/siblings-817369_960_720.jpg");
-    width: 100vw;
-    height: 90vh; 
+    background-image: url("http://jitu.local/wp-content/uploads/2023/05/process_banner-scaled.jpg");
+    width: 80vw;
+    height: 80vh; 
 }
 
 .sw_subheading {
@@ -259,6 +259,10 @@ padding-top: 15px;
     border-radius: 10px ;
 }
 
+.plus{
+    width: 20px !important;
+}
+
 .no_bg_blue{
     background-color: white !important;
 
@@ -270,4 +274,18 @@ padding-top: 15px;
 
 .view{
     margin-top: 51px;
+}
+
+
+.processTab{
+    width: 65% !important;
+}
+
+.processT{
+    border-bottom: 1px solid #CECECF;
+}
+
+#plusIcons{
+    display: flex !important;
+    justify-content: center;
 }

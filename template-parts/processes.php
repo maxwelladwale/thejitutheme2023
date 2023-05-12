@@ -36,7 +36,7 @@ get_header();
             <div class="container">
                 <div class="row mt-5 mb-5">
                     <div class="col-md-6 col-sm-12">
-                    <img src="<?php echo get_template_directory_uri()?>/assets/img/icons/audi.jpg" class="img-thumbnail" alt="">
+                    <img src="<?php echo get_template_directory_uri()?>/assets/img/icons/map.webp" class="img-thumbnail" alt="">
 
                     </div>
     
@@ -68,40 +68,55 @@ get_header();
                         </div>
                      
                         <div class="row mt-5 mb-5 muliple_processes">
-                        <div class="col-md-6 col-sm-12">
+                        <div class="col-md-6 processTab col-sm-12">
 
                         <div class="d-flex align-items-start sm-12">
-                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <div class="nav processMuliple  flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             
-                            <button class="nav-link no_bg_blue active" id="v-pills-turnaround-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
-                                
-                            <!-- <img class="plus" src="<?php echo get_template_directory_uri()?>/assets/img/icons/plus-circle.svg" class="img-thumbnail" alt=""> -->
-                                <h6 class="btn_mutiple">
-                                    Faster Turnaround Times
-                                </h6>
-                            </button>
-                            <hr>
-
+                            <div id="plusIcons">
+                                <div>
+                                    <img class="plus" src="<?php echo get_template_directory_uri()?>/assets/img/icons/circle-plus.svg" class="img-thumbnail" alt="">
+                                </div>
+                            <button class="nav-link no_bg_blue active plusIcon" id="v-pills-turnaround-tab"  data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                    <div>
+                                        <h6 class="btn_mutiple processT">
+                                            Faster Turnaround Times
+                                        </h6>
+                                    </div>
+                                </button>
+                            </div>
+                            
+                            <div id="plusIcons">
+                                <div>
+                                    <img class="plus" src="<?php echo get_template_directory_uri()?>/assets/img/icons/circle-plus.svg" class="img-thumbnail" alt="">
+                                </div>
                             <button class="nav-link no_bg_blue " id="v-pills-flexiblity-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                                <h6 class="btn_mutiple">
+                                <h6 class="btn_mutiple processT">
                                     Greater Flexibility
                                 </h6>
                             </button>
-                            <hr>
-
+</div>
+                            
+<div id="plusIcons">
+                                <div>
+                                    <img class="plus" src="<?php echo get_template_directory_uri()?>/assets/img/icons/circle-plus.svg" class="img-thumbnail" alt="">
+                                </div>
                             <button class="nav-link no_bg_blue " id="v-pills-quality-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
-                                <h6 class="btn_mutiple">
+                                <h6 class="btn_mutiple processT">
                                     Better Quality
                                 </h6>
                             </button>
-                            <hr>
-
+</div>
+<div id="plusIcons">
+                                <div>
+                                    <img class="plus" src="<?php echo get_template_directory_uri()?>/assets/img/icons/circle-plus.svg" class="img-thumbnail" alt="">
+                                </div>
                             <button class="nav-link no_bg_blue " id="v-pills-davings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
-                                <h6 class="btn_mutiple">
+                                <h6 class="btn_mutiple ">
                                     Cost savings
                                 </h6>
                             </button>
-                            <hr>
+</div>
 
                         </div>
 
