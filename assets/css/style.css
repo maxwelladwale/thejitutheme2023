@@ -167,4 +167,107 @@ a {
 .link_l{
     width: 80%;
 }
+
+.landing{
+    display: flex;
+    flex-direction: column;
+}
+g
+.land_btn{
+    display: flex;
+    gap: 10px;     
+}
   
+#sdlc{
+    background-color: transparent !important; 
+    border: 2px solid #FFFFFF !important;
+}
+
+#sdlc:hover{
+    background-color: #FFFFFF !important;
+}
+.bg-benefits{
+    background-image: url("https://cdn.pixabay.com/photo/2015/06/22/08/38/siblings-817369_960_720.jpg");
+    width: 100vw;
+    height: 90vh; 
+}
+
+.sw_subheading {
+    text-transform: none;
+}
+
+.sw_lifeCycle{
+    background-color: #FFFFFF;
+    padding: 100px;
+    line-height: 5.3;
+    text-align: left;
+    padding: 49px;
+    border-radius: 0px 15px 15px 0px;
+    margin-top: -200px;
+    box-shadow: 5px, 10px, 5px, 10px white;
+     
+}
+
+.process{
+    background-color: #FDFDFD;
+}
+
+.stages{
+    padding-right: 20px !important;
+padding-top: 15px;
+}
+
+.border_stage{
+    padding-top: 20px;
+   background-color:  linear-gradient(to left, #4C4647,#A65348,#D33733);
+}
+
+.closing_p{
+    font-weight: bold;
+}
+
+.border_stage{
+   border: 2px solid linear-gradient(#604942, #C86E66, #D02A25);
+   border-left: none;
+   border-right: none;
+   border-bottom: none;
+}
+
+.muliple_processes{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_mutiple{
+    background-color: white !important;
+    color: black !important;
+    font-weight: bold !important; 
+    width: 240px; 
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.content{
+    /* border: 2px solid red; */
+    padding: 10px;
+    height: 290px;
+    width: 900px;
+    text-align: left;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px #F4F4F4;
+    border-radius: 10px ;
+}
+
+.no_bg_blue{
+    background-color: white !important;
+
+}
+
+.header_text{
+    text-align: center;
+}
+
+.view{
+    margin-top: 51px;
+}
