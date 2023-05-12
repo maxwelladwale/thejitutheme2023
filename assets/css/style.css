@@ -167,4 +167,15 @@ a {
 .link_l{
     width: 80%;
 }
-  
+
+.gapBtn{
+    display: flex;
+    row-gap: 10px;
+}
+
+
+.process_banner{
+    background-color: transparent !important;
+    border: 1px solid white !important;
+}
+
