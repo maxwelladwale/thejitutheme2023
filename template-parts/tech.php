@@ -104,27 +104,31 @@ get_header();
                     </span>
                 </li>
 
-                <li class="mt-4 px-4">
+                <li class="mt-4 px-4 text-center">
                     <p class="redtext">Learn more about how we can help you achieve your business goals. </p>
                     <button class="button">Contact Us Today</button>
                 </li>
             </ul>
             <!-- full stack software dev ends -->
-           
+
             <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
                 <h3>Tab 3 Content</h3>
                 <p>This is the content for Tab 3.</p>
             </div>
         </div>
     </div>
-    
-</section>
+
+</section class="contain-fluid">
+
+<!-- quality engineer section start -->
+
+<?php the_content(); ?>
 
 <section>
     <div class="mt-3" id="Quality Engineer">
         <div class="container-fluid banner d-flex align-items-center" style="height:90vh ;width:100%">
         </div>
-        
+
     </div>
     <div class="container-fluid">
         <div class="row align-items-start">
@@ -137,23 +141,107 @@ get_header();
                         success of a business, especially
                         in the technology industry.</h3>
                 </div>
-               
-                
+
+
             </div>
-         
+
+        </div>
+
+        <div class=" container justify-content-center">
+            <h2 class="redtext text-center">Quality Engineers </h2>
+            <p class="text-center">We take pride in delivering high-quality engineering solutions. We employ a
+                team of skilled Quality Engineers that possess the critical job skills necessary to
+                ensure that every project we undertake is a success. </p>
         </div>
     </div>
 </section>
+<!-- quality engineer section end-->
 
-<!-- quality engineer section start -->
+<!-- site reliability engineers section start -->
+<div class="container custom-bg mt-5">
+    <div class="justify-content-center">
+        <h2 class="redtext text-center">Site Reliability Engineers </h2>
+        <p class="text-center">We offer a resourceful range of SRE services.</p>
+    </div>
+
+    <div class="row gx-5 mt-5">
+
+        <div class="row">
+            <div class="col-sm-12 col-lg-6 col-md-6">
+                <h5 class="redtext">INFRASTRUCTURE DESIGN AND MANAGEMENT</h5>
+                <p>We design and manage infrastructure
+                    for large-scale web applications. We
+                    utilize the latest technologies and
+                    tools to ensure that our clients'
+                    infrastructure is reliable, scalable,
+                    and secure. </p>
+            </div>
+
+            <div class="col-sm-12 col-lg-6 col-md-6">
+                <h6 class="redtext">MONITORING AND ALERTING</h6>
+                <p>We monitor and alert all web
+                    applications. Using a variety of
+                    monitoring tools and techniques
+                    proactively identifies and addresses
+                    issues before they impact our clients'
+                    users. </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 col-lg-6 col-md-6">
+                <h6 class="redtext">PERFORMANCE OPTIMIZATION</h6>
+                <p>By optimizing the performance of
+                    web applications we ensure that all
+                    applications meet the needs of our
+                    clients' users. We use a variety of tools
+                    and techniques to identify and
+                    resolve performance issues, ensuring
+                    that our clients' applications are fast
+                    and responsive. </p>
+            </div>
+            <div class="col-sm-12 col-lg-6 col-md-6">
+                <h6 class="redtext">DISASTER RECOVERY</h6>
+                <p>We design and implement disaster
+                    recovery plans for web applications
+                    to ensure that our clients' applications
+                    are protected against unexpected
+                    failures, and that they can be quickly
+                    recovered in the event of a disaster.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 col-lg-6 col-md-6">
+                <h6 class="redtext"></h6>
+                <p></p>
+            </div>
+            <div class="col-sm-12 col-lg-6 col-md-6">
+                <h6 class="redtext">CONSULTING SERVICES</h6>
+                <p>Our team members provide
+                    consulting services to our clients,
+                    including infrastructure design
+                    review, performance optimization,
+                    and disaster recovery planning. </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="containers text-center mt-5">
+        <h6>Our Quality Engineers or Site Reliability Engineering
+            services that are tailored to your specific needs.</h6>
+        <button class="justify-content-center mt-3">CONTACT US TODAY</button>
+    </div>
+
+</div>
+<!-- site reliability engineers section end -->
+
 <section class="mt-3">
 </section>
-<p mt-6>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sit laborum corporis <br> doloremque, aliquam veritatis? Possimus dolorum, voluptas quaerat rem hic <br> ut impedit temporibus mollitia esse reprehenderit animi error tempore?
-</p>
 
 
-<!-- quality engineer section end-->
+
 
 
 

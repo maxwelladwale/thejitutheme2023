@@ -300,3 +300,13 @@ padding-top: 15px;
     display: flex !important;
     justify-content: center;
 }
+
+
+/* services page start */
+.custom-bg{
+    background-image: url('../img/services.img.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+/* services page end */
