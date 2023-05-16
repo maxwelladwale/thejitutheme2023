@@ -45,16 +45,14 @@ get_header();
             </li>
 
             <li class="nav-item" role="presentation">
-                <a class="nav-link active text-danger text-black" href="#Quality Engineer" role="tab">Quality Engineer/SRE</a>
+                <a class="nav-link active text-danger text-black" href="#Quality Engineer">Quality Engineer/SRE</a>
             </li>
 
             <li class="nav-item" role="presentation">
-                <!-- <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">Restful API & GraphQL API</button> -->
-                <a class="nav-link active text-danger text-black" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Restful API & GraphQL API</a>
+                <a class="nav-link active text-danger text-black" href="#Restful API & GraphQL API">Restful API & GraphQL API</a>
             </li>
 
             <li class="nav-item" role="presentation">
-                <!-- <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">ETL/Reporting Analysis </button> -->
                 <a class="nav-link active text-danger text-black" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">ETL/Reporting Analysis</a>
 
             </li>
@@ -158,17 +156,18 @@ get_header();
 <!-- quality engineer section end-->
 
 <!-- site reliability engineers section start -->
-<div class="container custom-bg mt-5">
-    <div class="justify-content-center">
+<div class="container-fluid custom-bg mt-5 bg-smoke p-5" id="#Quality Engineer">
+
+    <div class="justify-content-center mt-5">
         <h2 class="redtext text-center">Site Reliability Engineers </h2>
-        <p class="text-center">We offer a resourceful range of SRE services.</p>
+        <h6 class="text-center">We offer a resourceful range of SRE services.</h6>
     </div>
 
-    <div class="row gx-5 mt-5">
+    <div class="row gx-5 mt-5 p-5 containers">
 
         <div class="row">
             <div class="col-sm-12 col-lg-6 col-md-6">
-                <h5 class="redtext">INFRASTRUCTURE DESIGN AND MANAGEMENT</h5>
+                <h6 class="redtext">INFRASTRUCTURE DESIGN AND MANAGEMENT</h6>
                 <p>We design and manage infrastructure
                     for large-scale web applications. We
                     utilize the latest technologies and
@@ -181,14 +180,14 @@ get_header();
                 <h6 class="redtext">MONITORING AND ALERTING</h6>
                 <p>We monitor and alert all web
                     applications. Using a variety of
-                    monitoring tools and techniques
+                    monitoring <br> tools and techniques
                     proactively identifies and addresses
                     issues before they impact our clients'
                     users. </p>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-sm-12 col-lg-6 col-md-6">
                 <h6 class="redtext">PERFORMANCE OPTIMIZATION</h6>
                 <p>By optimizing the performance of
@@ -237,16 +236,110 @@ get_header();
 </div>
 <!-- site reliability engineers section end -->
 
-<section class="mt-3">
+<!-- Restful API & GraphQL API start -->
+<section style="box-shadow: 0px 6px 9px 5px rgba(0, 0, 0, 0.1);">
+    <div id="Restful API & GraphQL API">
+        <div class="text-white container-fluid p-5 ml-6" style="background-color: #C11E2E;">
+            <h6 class="mt-3">Restful API and GraphQL API </h6>
+            <h3 class="mt-3">Our custom RESTful and GraphQL API development <br>
+                services help businesses create tailored solutions that meet <br>
+                their specific needs. </h3>
+        </div>
+
+        <div class="p-5 m-5">
+            <div class="row">
+                <div class="col">
+                    <img src="../assets/img/thumbnail services(2).jpg" alt="">
+                </div>
+                <div class="col">
+                    <span  class="gap-3">
+                        <img src="../assets/img/graphQL.png" alt="">
+                        <img src="../assets/img/api.png" alt="">
+                    </span>
+                    <p>RESTful and GraphQL APIs are an essential
+                        component of modern web applications, allowing
+                        businesses to connect their front-end user
+                        interfaces with the back-end data and services
+                        they need. Our team of developers has extensive
+                        experience in creating custom APIs using both
+                        RESTful and GraphQL protocols; we handle even
+                        the toughest business problems. Our APIs are
+                        efficient, secure, and scalable to navigate even the
+                        toughest business problems.</p>
+                </div>
+            </div>
+
+            <div class="row p-5 gap-5">
+                <div class="col">
+                    <img src="../assets/img/tick.png" alt="">
+                    <p>By creating custom APIs, we help
+                        businesses streamline their
+                        operations, reduce costs, and improve
+                        customer experiences. Our APIs are
+                        designed to be efficient, secure, and
+                        scalable, ensuring that they can
+                        handle high volumes of traffic and
+                        provide fast responses.</p>
+                </div>
+
+                <div class="col">
+                    <img src="../assets/img/tick.png" alt="">
+                    <p>We offer affordable custom API
+                        development solutions to keep your
+                        project on budget. Our APIs are built
+                        with scalability and future growth in
+                        mind, ensuring that they can adapt to
+                        changing business needs and deliver
+                        value over time while seeing an ROI in
+                        the long-run. </p>
+                </div>
+
+                <div class="col">
+                    <img src="../assets/img/tick.png" alt="">
+                    <p>Whether our clients need a custom
+                        API solution for a new application or
+                        to integrate legacy code, our team is
+                        up to the challenge. We have the
+                        expertise and experience to create
+                        custom APIs that meet our clients'
+                        unique business requirements, no
+                        matter how complex or challenging. </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 </section>
 
+<!-- Restful API & GraphQL API start -->
 
 
 
 
 
 
-
+<section class="section jitucontact">
+    <div class="mt-5 pb-5">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-lg-6 col-sm-12">
+                    <h2 class="redtext text-uppercase">Let's Discuss Your<br /> Next Project</h2>
+                    <p>
+                        Fill out the form or call us to set up a meeting. We’ll be happy to discuss your staffing needs in detail, provide estimates, and answer all your questions.
+                    </p>
+                    <span class="">
+                        <i class="ri-phone-fill"></i> (+254) 710 453 693
+                    </span>
+                </div>
+                <div class="col">
+                    <?php echo do_shortcode('[wpforms id="14"]'); ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php
 get_sidebar();
