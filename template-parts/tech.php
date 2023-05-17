@@ -53,9 +53,9 @@ get_header();
             </li>
 
             <li class="nav-item" role="presentation">
-                <a class="nav-link active text-danger text-black" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">ETL/Reporting Analysis</a>
-
+                <a class="nav-link active text-danger text-black" href="#ETL/Reporting Analysis">ETL/Reporting Analysis</a>
             </li>
+
         </ul>
 
         <div class="mt-5" id="Full-Stack">
@@ -156,103 +156,105 @@ get_header();
 <!-- quality engineer section end-->
 
 <!-- site reliability engineers section start -->
-<div class="container-fluid custom-bg mt-5 bg-smoke p-5" id="#Quality Engineer">
+<section>
+    <div class="container-fluid custom-bg mt-5 bg-smoke p-5" id="#Quality Engineer">
 
-    <div class="justify-content-center mt-5">
-        <h2 class="redtext text-center">Site Reliability Engineers </h2>
-        <h6 class="text-center">We offer a resourceful range of SRE services.</h6>
-    </div>
-
-    <div class="row gx-5 mt-5 p-5 containers">
-
-        <div class="row">
-            <div class="col-sm-12 col-lg-6 col-md-6">
-                <h6 class="redtext">INFRASTRUCTURE DESIGN AND MANAGEMENT</h6>
-                <p>We design and manage infrastructure
-                    for large-scale web applications. We
-                    utilize the latest technologies and
-                    tools to ensure that our clients'
-                    infrastructure is reliable, scalable,
-                    and secure. </p>
-            </div>
-
-            <div class="col-sm-12 col-lg-6 col-md-6">
-                <h6 class="redtext">MONITORING AND ALERTING</h6>
-                <p>We monitor and alert all web
-                    applications. Using a variety of
-                    monitoring <br> tools and techniques
-                    proactively identifies and addresses
-                    issues before they impact our clients'
-                    users. </p>
-            </div>
+        <div class="justify-content-center mt-5">
+            <h2 class="redtext text-center">Site Reliability Engineers </h2>
+            <h6 class="text-center">We offer a resourceful range of SRE services.</h6>
         </div>
 
-        <div class="row mt-3">
-            <div class="col-sm-12 col-lg-6 col-md-6">
-                <h6 class="redtext">PERFORMANCE OPTIMIZATION</h6>
-                <p>By optimizing the performance of
-                    web applications we ensure that all
-                    applications meet the needs of our
-                    clients' users. We use a variety of tools
-                    and techniques to identify and
-                    resolve performance issues, ensuring
-                    that our clients' applications are fast
-                    and responsive. </p>
+        <div class="row gx-5 mt-5 p-5 containers">
+
+            <div class="row">
+                <div class="col-sm-12 col-lg-6 col-md-6">
+                    <h6 class="redtext">INFRASTRUCTURE DESIGN AND MANAGEMENT</h6>
+                    <p>We design and manage infrastructure
+                        for large-scale web applications. We
+                        utilize the latest technologies and
+                        tools to ensure that our clients'
+                        infrastructure is reliable, scalable,
+                        and secure. </p>
+                </div>
+
+                <div class="col-sm-12 col-lg-6 col-md-6">
+                    <h6 class="redtext">MONITORING AND ALERTING</h6>
+                    <p>We monitor and alert all web
+                        applications. Using a variety of
+                        monitoring <br> tools and techniques
+                        proactively identifies and addresses
+                        issues before they impact our clients'
+                        users. </p>
+                </div>
             </div>
-            <div class="col-sm-12 col-lg-6 col-md-6">
-                <h6 class="redtext">DISASTER RECOVERY</h6>
-                <p>We design and implement disaster
-                    recovery plans for web applications
-                    to ensure that our clients' applications
-                    are protected against unexpected
-                    failures, and that they can be quickly
-                    recovered in the event of a disaster.</p>
+
+            <div class="row mt-3">
+                <div class="col-sm-12 col-lg-6 col-md-6">
+                    <h6 class="redtext">PERFORMANCE OPTIMIZATION</h6>
+                    <p>By optimizing the performance of
+                        web applications we ensure that all
+                        applications meet the needs of our
+                        clients' users. We use a variety of tools
+                        and techniques to identify and
+                        resolve performance issues, ensuring
+                        that our clients' applications are fast
+                        and responsive. </p>
+                </div>
+                <div class="col-sm-12 col-lg-6 col-md-6">
+                    <h6 class="redtext">DISASTER RECOVERY</h6>
+                    <p>We design and implement disaster
+                        recovery plans for web applications
+                        to ensure that our clients' applications
+                        are protected against unexpected
+                        failures, and that they can be quickly
+                        recovered in the event of a disaster.</p>
+                </div>
             </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-lg-6 col-md-6">
+                    <h6 class="redtext"></h6>
+                    <p></p>
+                </div>
+                <div class="col-sm-12 col-lg-6 col-md-6">
+                    <h6 class="redtext">CONSULTING SERVICES</h6>
+                    <p>Our team members provide
+                        consulting services to our clients,
+                        including infrastructure design
+                        review, performance optimization,
+                        and disaster recovery planning. </p>
+                </div>
+            </div>
+
         </div>
 
-        <div class="row">
-            <div class="col-sm-12 col-lg-6 col-md-6">
-                <h6 class="redtext"></h6>
-                <p></p>
-            </div>
-            <div class="col-sm-12 col-lg-6 col-md-6">
-                <h6 class="redtext">CONSULTING SERVICES</h6>
-                <p>Our team members provide
-                    consulting services to our clients,
-                    including infrastructure design
-                    review, performance optimization,
-                    and disaster recovery planning. </p>
-            </div>
+        <div class="containers text-center mt-5">
+            <h6>Our Quality Engineers or Site Reliability Engineering
+                services that are tailored to your specific needs.</h6>
+            <button class="justify-content-center mt-3">CONTACT US TODAY</button>
         </div>
 
     </div>
-
-    <div class="containers text-center mt-5">
-        <h6>Our Quality Engineers or Site Reliability Engineering
-            services that are tailored to your specific needs.</h6>
-        <button class="justify-content-center mt-3">CONTACT US TODAY</button>
-    </div>
-
-</div>
+</section>
 <!-- site reliability engineers section end -->
 
 <!-- Restful API & GraphQL API start -->
-<section style="box-shadow: 0px 6px 9px 5px rgba(0, 0, 0, 0.1);">
+<section>
     <div id="Restful API & GraphQL API">
-        <div class="text-white container-fluid p-5 ml-6" style="background-color: #C11E2E;">
+        <div class="text-white container-fluid p-5 ml-6" style="background-color: #C11E2E; box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.35);">
             <h6 class="mt-3">Restful API and GraphQL API </h6>
             <h3 class="mt-3">Our custom RESTful and GraphQL API development <br>
                 services help businesses create tailored solutions that meet <br>
                 their specific needs. </h3>
         </div>
 
-        <div class="p-5 m-5">
+        <div class="p-5 m-5 ">
             <div class="row">
                 <div class="col">
                     <img src="../assets/img/thumbnail services(2).jpg" alt="">
                 </div>
                 <div class="col">
-                    <span  class="gap-3">
+                    <span class="gap-3">
                         <img src="../assets/img/graphQL.png" alt="">
                         <img src="../assets/img/api.png" alt="">
                     </span>
@@ -315,12 +317,50 @@ get_header();
 
 <!-- Restful API & GraphQL API start -->
 
+<!-- ETL/Reporting Analysis  start-->
+<section class="p-5" style="box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.35);">
+    <div class="container" id="ETL/Reporting Analysis">
+        <div class="text-center">
+            <h4 class="redtext">ETL/Reporting Analysis </h4>
+            <h2>Data is at the heart of every business decision.
+                We translate raw data into actionable insights. </h2>
+        </div>
+        <ul class="list-unstyled m-5">
+            <li>
+                <div class="bg-white p-3 rounded" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+                    <span>
+                        <img src="../assets/img/icons/report.png" alt="">
+                        <div>
+                            <h4>ETL</h4>
+                            <p>We extract data from various sources, transforming it into a usable format, and loading
+                                it into a database or data warehouse. Using the latest technologies and techniques
+                                ensures that our clients' data is accurate, consistent, and up-to-date. </p>
+                        </div>
+                    </span>
+                </div>
+
+            </li>
+            <li m-5>
+                <div class="bg-white p-3 rounded mt-5" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+                    <span>
+                        <img src="../assets/img/icons/etl.png" alt="">
+                        <div>
+                            <h4>REPORTING ANALYSIS</h4>
+                            <p>We use advanced statistical models and data visualization tools to help our clients
+                                understand their data and make informed business decisions. </p>
+                        </div>
+                    </span>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+</section>
+<!-- ETL/Reporting Analysis end-->
 
 
-
-
-
-<section class="section jitucontact">
+<!-- form section start -->
+<section class="section jitucontact" style="box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.35);">
     <div class="mt-5 pb-5">
         <div class="container">
             <div class="row py-5">
@@ -340,6 +380,7 @@ get_header();
         </div>
     </div>
 </section>
+<!-- form section end -->
 
 <?php
 get_sidebar();
