@@ -250,15 +250,17 @@ get_header();
 
         <div class="p-5 m-5 ">
             <div class="row">
-                <div class="col">
-                    <img src="../assets/img/thumbnail services(2).jpg" alt="">
+                <div class="col" style=" padding-left: 0px; padding-right: 0px;">
+                    <!-- <img class="grid-image" alt="" /> -->
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/audi.jpg" alt="" style="border-radius:8px; margin-top:-120px; margin-left:-100px; height:600px; box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);">
                 </div>
                 <div class="col">
-                    <span class="gap-3">
-                        <img src="../assets/img/graphQL.png" alt="">
-                        <img src="../assets/img/api.png" alt="">
+                <span style="display:flex; gap:64px; height:64px">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/graphQL.png" alt="">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/api.png" alt="">
                     </span>
-                    <p>RESTful and GraphQL APIs are an essential
+
+                    <p class="mt-5" style="width:80%;">RESTful and GraphQL APIs are an essential
                         component of modern web applications, allowing
                         businesses to connect their front-end user
                         interfaces with the back-end data and services
@@ -271,10 +273,10 @@ get_header();
                 </div>
             </div>
 
-            <div class="row p-5 gap-5">
+            <div class="row p-5 gap-5 mt-5 " style="width:100%;">
                 <div class="col">
-                    <img src="../assets/img/tick.png" alt="">
-                    <p>By creating custom APIs, we help
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/tick.png" alt="">
+                     <p>By creating custom APIs, we help
                         businesses streamline their
                         operations, reduce costs, and improve
                         customer experiences. Our APIs are
@@ -285,7 +287,7 @@ get_header();
                 </div>
 
                 <div class="col">
-                    <img src="../assets/img/tick.png" alt="">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/tick.png" alt="">
                     <p>We offer affordable custom API
                         development solutions to keep your
                         project on budget. Our APIs are built
@@ -297,7 +299,7 @@ get_header();
                 </div>
 
                 <div class="col">
-                    <img src="../assets/img/tick.png" alt="">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/tick.png" alt="">
                     <p>Whether our clients need a custom
                         API solution for a new application or
                         to integrate legacy code, our team is
@@ -314,8 +316,7 @@ get_header();
 
     </div>
 </section>
-
-<!-- Restful API & GraphQL API start -->
+<!-- Restful API & GraphQL API end -->
 
 <!-- ETL/Reporting Analysis  start-->
 <section class="p-5" style="box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.35);">
@@ -327,11 +328,11 @@ get_header();
         </div>
         <ul class="list-unstyled m-5">
             <li>
-                <div class="bg-white p-3 rounded" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
-                    <span>
-                        <img src="../assets/img/icons/report.png" alt="">
+                <div class="bg-white p-5 rounded mb-5" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+                <span style="display:flex; gap:12px; height:64px">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/tick.png" alt="">
                         <div>
-                            <h4>ETL</h4>
+                            <h5>ETL</h5>
                             <p>We extract data from various sources, transforming it into a usable format, and loading
                                 it into a database or data warehouse. Using the latest technologies and techniques
                                 ensures that our clients' data is accurate, consistent, and up-to-date. </p>
@@ -341,11 +342,11 @@ get_header();
 
             </li>
             <li m-5>
-                <div class="bg-white p-3 rounded mt-5" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
-                    <span>
-                        <img src="../assets/img/icons/etl.png" alt="">
+                <div class="bg-white p-5 rounded mt-5 mb-5" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+                    <span style="display:flex; gap:12px; height:64px">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/tick.png" alt="">
                         <div>
-                            <h4>REPORTING ANALYSIS</h4>
+                            <h5>REPORTING ANALYSIS</h5>
                             <p>We use advanced statistical models and data visualization tools to help our clients
                                 understand their data and make informed business decisions. </p>
                         </div>
