@@ -305,10 +305,7 @@ padding-top: 15px;
 /* services page start */
   .custom-bg {
     position: relative;
-    /* overflow: hidden; */
-    /* box-shadow: 0px 6px 9px 5px rgba(0, 0, 0, 0.2); */
-
-}
+    }
 
   .custom-bg::before {
     content: "";
@@ -322,7 +319,6 @@ padding-top: 15px;
     opacity: 0.2;   
     background-color: rgba(246, 245, 245, 0.7); 
     clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.707); */
     z-index: 1;
   }
   .custom-bg .content {
@@ -330,4 +326,3 @@ padding-top: 15px;
     z-index: 2;
   }
   
-/* services page end */
