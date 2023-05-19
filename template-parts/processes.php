@@ -63,7 +63,7 @@ get_header();
             <div class="testimonials mb-5">
                 <div class="container">
                     <div class="row py-5 text-center">
-                        <div class="col-12 d-flex flex-column align-items-center">
+                        <div class="col-12 d-flex flex-column align-items-center sm-flex-column">
                             <h2 class="redtext header_text">Our multi-country processes offer several benefits to our clients, including:</h2>
                         </div>
                      
@@ -165,6 +165,8 @@ get_header();
                         </div>
 </div>
 
+
+
                         <div class="col-12 d-flex flex-column align-items-center">
                             <p >We are committed to delivering exceptional services that meet the needs of our clients. By utilizing multi-country processes, we provide our clients with faster turnaround times, greater flexibility, better quality, and cost savings.</p>
                         </div>
@@ -177,25 +179,29 @@ get_header();
 
         <!-- software development life-cycle -->
                 
-        <section class="section">
-            <div class="container"> 
-                <div class="bg-benefits">
-                </div>
-                <div class="sw_lifeCycle ">
-                    <h3 class="redtext">Software Development Life Cycle</h3>
-                    <h2>
-                    THE Jitu specializes in providing exceptional web development services using our proven Software Development Lifecycle (SDLC) process. 
-                    </h2>
-                        <h6 class="sw_subheading">We believe that effective software development requires a comprehensive approach that covers every stage of the project lifecycle, from planning to deployment.
-                        </h6>
-                </div>
+        <section class=" section">
+            <div class="container-fluid"> 
+                <!-- <div class="col-md-6 col-sm-12"> -->
+                
+                    <div class="bg-benefits">
+                            <img src="<?php echo get_template_directory_uri()?>/assets/img/icons/process__banner.jpg" class="img-thumbnail" alt="">
+                        </div>
+                        <div class="sw_lifeCycle ">
+                                 <p class="redtext subHeaderSDCL">Software Development Life Cycle</p>
+                                <h2 class="headerSDLC">
+                                    THE Jitu specializes in providing exceptional web development services using our proven Software Development Lifecycle (SDLC) process. 
+                                </h2>
+                                <h6 class="sw_subheading">
+                                    We believe that effective software development requires a comprehensive approach that covers every stage of the project lifecycle, from planning to deployment.
+                                </h6>
+                        </div>
+                        
+                <!-- </div>    -->
             </div>
-
-     
         </section>
 
         <section>
-        <div class="container">
+        <div class="container SDLCProcesses">
                 <div class="row mt-5 mb-5">
                     <div class="col-md-6 col-sm-12">
                         <h1 class="redtext">Our SDLC process consists of the following stages:</h1>

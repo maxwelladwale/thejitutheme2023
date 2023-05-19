@@ -197,14 +197,12 @@ a {
 #sdlc:hover{
     background-color: #FFFFFF !important;
 }
-.bg-benefits{
-    background-image: url("http://jitu.local/wp-content/uploads/2023/05/process_banner-scaled.jpg");
-    width: 80vw;
-    height: 80vh; 
-}
+
+
 
 .sw_subheading {
     text-transform: none;
+    inline-size: 610px;
 }
 
 .sw_lifeCycle{
@@ -212,12 +210,12 @@ a {
     padding: 100px;
     line-height: 5.3;
     text-align: left;
-    padding: 49px;
+    padding: 50px 0px 50px 300px;
     border-radius: 0px 15px 15px 0px;
     margin-top: -200px;
-    box-shadow: 5px, 10px, 5px, 10px white;
-     
-}
+    box-shadow: 5px 10px 5px #EDEDEE;    
+    position: absolute; 
+    width: 96rem;}
 
 .process{
     background-color: #FDFDFD;
@@ -300,3 +298,22 @@ padding-top: 15px;
     display: flex !important;
     justify-content: center;
 }
+
+.headerSDLC{
+    font-weight: bold;
+    inline-size: 853px;
+    word-spacing: 15px;
+    padding-bottom: 15px;
+}
+
+.SDLCProcesses{
+    margin-top: 191px;
+}
+
+.subHeaderSDCL{
+    font-weight: 100px;
+    font-size: 30px;
+}
+/* inline-size: 718px; -h2 */
+
+/* inline-size: 610px; - p */
