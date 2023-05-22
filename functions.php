@@ -44,6 +44,7 @@ function thejitu_styles(){
     wp_enqueue_style('jitu-remix', 'https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css', array(), thejitu_VERSION, 'all');
     wp_enqueue_style('jitu-bootstrapcss', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css', array() , 'all');
     wp_enqueue_style('jitu-404', get_template_directory_uri().'/assets/css/404.css', array(), thejitu_VERSION, 'all');
+    wp_enqueue_style('jitu-process', get_template_directory_uri().'/assets/css/process.css', array(), thejitu_VERSION, 'all');
 }
 
 

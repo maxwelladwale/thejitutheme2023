@@ -72,7 +72,7 @@ get_header();
                 <div class="row mt-5 mb-5 muliple_processes">
                     <div class="col-md-6 processTab col-sm-12">
 
-                        <div class="d-flex align-items-start sm-12">
+                        <!-- <div class="d-flex align-items-start sm-12">
                             <div class="nav processMuliple  flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
                                 <div id="plusIcons">
@@ -92,7 +92,7 @@ get_header();
                                     <div>
                                         <img class="plus" src="<?php echo get_template_directory_uri() ?>/assets/img/icons/circle-plus.svg" class="img-thumbnail" alt="">
                                     </div>
-                                    <button class="nav-link no_bg_blue " id="v-pills-flexiblity-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                    <button class="nav-link no_bg_blue plusIcon" id="v-pills-flexiblity-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
                                         <h6 class="btn_mutiple processT">
                                             Greater Flexibility
                                         </h6>
@@ -103,7 +103,7 @@ get_header();
                                     <div>
                                         <img class="plus" src="<?php echo get_template_directory_uri() ?>/assets/img/icons/circle-plus.svg" class="img-thumbnail" alt="">
                                     </div>
-                                    <button class="nav-link no_bg_blue " id="v-pills-quality-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                                    <button class="nav-link no_bg_blue plusIcon" id="v-pills-quality-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
                                         <h6 class="btn_mutiple processT">
                                             Better Quality
                                         </h6>
@@ -113,7 +113,7 @@ get_header();
                                     <div>
                                         <img class="plus" src="<?php echo get_template_directory_uri() ?>/assets/img/icons/circle-plus.svg" class="img-thumbnail" alt="">
                                     </div>
-                                    <button class="nav-link no_bg_blue " id="v-pills-davings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                                    <button class="nav-link no_bg_blue plusIcon" id="v-pills-davings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
                                         <h6 class="btn_mutiple processT">
                                             Cost savings
                                         </h6>
@@ -160,7 +160,7 @@ get_header();
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
@@ -202,7 +202,7 @@ get_header();
 <section>
     <div class="container sdlcprocesses">
         <div class="row mt-5 mb-5">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 sdlcprocess">
                 <h1 class="redtext sdlc">Our SDLC process consists of the following stages:</h1>
                 <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/agile.png" class="img-thumbnail agile" alt="">
                 <!-- line -->
