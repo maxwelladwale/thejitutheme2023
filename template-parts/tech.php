@@ -39,7 +39,7 @@ get_header();
 <section class="container mt-3">
     <div class="dev">
 
-        <ul class="nav nav-links justify-content-around border-bottom" id="myTabs">
+        <ul class="nav nav-links justify-content-around border-bottom sticky-top" id="myTabs">
             <li class="nav-item" role="presentation">
                 <a class="nav-link active text-black text-danger" href="#Full-Stack">Full-Stack Software Development</a>
             </li>
@@ -107,21 +107,13 @@ get_header();
                     <button class="button">Contact Us Today</button>
                 </li>
             </ul>
-            <!-- full stack software dev ends -->
-
-            <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
-                <h3>Tab 3 Content</h3>
-                <p>This is the content for Tab 3.</p>
-            </div>
         </div>
     </div>
-
-</section class="contain-fluid">
+</section >
+<!-- full stack software dev ends -->
 
 <!-- quality engineer section start -->
-
 <?php the_content(); ?>
-
 <section>
     <div class="mt-3" id="Quality Engineer">
         <div class="container-fluid banner d-flex align-items-center" style="height:90vh ;width:100%">
@@ -231,7 +223,7 @@ get_header();
         <div class="containers text-center mt-5">
             <h6>Our Quality Engineers or Site Reliability Engineering
                 services that are tailored to your specific needs.</h6>
-            <button class="justify-content-center mt-3">CONTACT US TODAY</button>
+            <button class=" button mt-3">CONTACT US TODAY</button>
         </div>
 
     </div>
@@ -386,3 +378,5 @@ get_header();
 <?php
 get_sidebar();
 get_footer();
+
+

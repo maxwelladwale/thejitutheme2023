@@ -325,4 +325,17 @@ padding-top: 15px;
     position: relative;
     z-index: 2;
   }
-  
+  /* services page end */
+
+  /* about us styling  start*/
+/* .progress{
+    width: 400px;
+    height: 400px;
+    
+} */
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: auto;
+}
+
+  /* about us styling  end*/
