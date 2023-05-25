@@ -465,3 +465,50 @@ a {
     }
 
   }
+
+  .trainingContent{
+    background-color: "#FCF4F4";
+  }
+
+  #v-pills-turnaround-tab, #v-pills-flexiblity-tab, #v-pills-quality-tab, #v-pills-davings-tab{
+    background-color: white !important;  }
+
+    #v-pills-turnaround-tab, #v-pills-flexiblity-tab, #v-pills-quality-tab, #v-pills-davings-tab:hover{
+    background-color: white !important;
+  }
+
+  #trainingbtn{
+    background-color: white !important;
+    border: 2px solid #84302D !important;
+    color: #F68B2A !important;
+    inline-size: 300px;
+  }
+
+  #trainingbtn :hover{
+    background-color: #F68B2A !important;
+    color: #ffffff;
+  }
+
+  .threetraining{
+    width: 100%;
+  }
+
+  .training-desc{
+    inline-size: 484px;
+
+  }
+
+  .tech-stack{
+    border: 1px solid red;
+  }
+
+  .program {
+    box-shadow: 0px 6px 9px 5px #D1D1D1;
+  }
+
+  .programContent{
+    inline-size: 348px;
+  }
+  /* .stack{
+  width: 24.3% !important;
+  } */
