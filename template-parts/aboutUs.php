@@ -146,7 +146,7 @@ get_header();
 
 
 <!-- THH FAMILY -->
-<section class="section">
+<section class="section mt-5">
     <div class="container-fluid mt-5 mb-5">
         <div class="container text-center ">
             <h3 class="text-uppercase">We are part of the THH-LLC <br> technology family</h3>
@@ -173,6 +173,16 @@ get_header();
     </div>
 </section>
 
+<!-- HEAR FROM EMPLOYEES -->
+<section class="mt-5">
+    <div class="container">
+        <h2 class="redtext">Hear from Our Employees</h2>
+
+
+    </div>
+</section>
+
+
 <!-- form section -->
 <section class="section jitucontact">
     <div class="mt-5 pb-5">
@@ -188,7 +198,7 @@ get_header();
                     </span>
                 </div>
                 <div class="col">
-                    <?php echo do_shortcode('[wpforms id="7"]'); ?>
+                    <?php echo do_shortcode('[wpforms id="14"]'); ?>
                 </div>
             </div>
         </div>
