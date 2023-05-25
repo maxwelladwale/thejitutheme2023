@@ -48,7 +48,7 @@ get_header();
     </div>
 </section>
 
-<!-- OUR PROGRESS -->
+<!-- OUR PROGRESS  section-->
 <section class="container-fluid mt-5 p-5" style="background-color: #FCF4F4;">
     <div class="row container justify-content-center p-5" style="margin:auto;">
         <div class="col" style="width: 1650px;">
