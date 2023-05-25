@@ -25,7 +25,6 @@ function thejitu_fn_setup(){
 // =============================================================
 function thejitu_scripts() {
     wp_enqueue_script('thejitu-jquery', 'https://code.jquery.com/jquery-2.2.0.min.js', array('jquery'), TRUE);
-
     wp_enqueue_script('thejitu-slick', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js', array('jquery'), TRUE);
     wp_enqueue_script('jitu-customjs', get_template_directory_uri().'/assets/js/custom.js', array(), thejitu_VERSION, 'all');
     wp_enqueue_script('jitu-bootstrapjs', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js', array(), TRUE);

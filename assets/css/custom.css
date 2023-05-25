@@ -7,11 +7,10 @@
     background-repeat: no-repeat;
     color: white;
 }
-.banner p{
-	font-size: 18px;
-}
-.banner h1{
-    text-transform: uppercase;
+
+.test{
+    background-image: url("../img/bannerhomedark.jpg");
+
 }
 .redtext{
     color: #C3202F;

@@ -1,5 +1,95 @@
 @import "./style.css";
 
+.banner-title {
+  inline-size: 37rem;
+  text-transform: initial !important;
+  font-size: 56px;
+}
+
+.banner-content {
+  inline-size: 27rem;
+  font-size: 24px;
+}
+
+.land_btn {
+  margin: 2.5rem 0;
+}
+
+#sdlc {
+  margin: 0 1.5rem;
+}
+
+.country {
+  font-weight: 300;
+  text-transform: capitalize !important;
+  font-size: 29px;
+}
+
+.country-desc {
+  inline-size: 44rem;
+  word-spacing: 6px;
+  padding-bottom: 15px;
+  font-size: 2.5rem;
+}
+
+.country-content {
+  inline-size: 43rem;
+  font-size: 20px;
+}
+
+.header_text {
+  text-align: center;
+  inline-size: 41rem;
+}
+
+.tbs {
+  margin: 0 2rem;
+  border-top: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+  box-shadow: 5px -5px 5px 5px #969696, 5px 10px 9px #969696;
+  border-radius: 10px;
+  /* border-bottom-right-radius: 10px; */
+  padding: 15px;
+  width: 50rem;
+}
+
+.nav {
+  margin: 1.5rem 0;
+}
+
+.nav-tabs {
+  inline-size: 22rem;
+  text-align: start;
+  border: none;
+  color: #808080;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.nav-tabs i {
+  vertical-align: middle;
+  color: dimgray;
+  margin-right: 10px;
+}
+
+.tab-pane p {
+  inline-size: 24rem;
+  text-align: start;
+  margin-left: 1rem;
+  font-size: 20px;
+}
+
+hr {
+  margin: 0 0 0 42px;
+  width: 19rem;
+}
+
+.multi-country-text-button {
+  width: 13rem;
+  margin-left: -11rem;
+}
+
 .processMuliple {
   padding: 20px 0;
 }
@@ -13,10 +103,6 @@
 
 .multi-country-text-desc {
   margin: 2.5rem 0;
-}
-
-.multi-country-text-button {
-  margin: 0 8.5rem;
 }
 
 @media only screen and (max-width: 550px) {
