@@ -49,100 +49,62 @@ get_header();
 </section>
 
 <!-- OUR PROGRESS -->
-<section>
-    <div class="container d-flex mt-5" style="gap:20rem;">
-        <div class="grid" style="gap:4rem;">
-            <div class="row gx-5 gy-4 containers">
-                <div class="row gx-4 gy-4">
-                    <div class="col-sm-12 col-lg-6 col-md-6">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:250px;">
-                    </div>
-                    <div class="col-sm-12 col-lg-6 col-md-6">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:250px;">
-                    </div>
+<section class="container-fluid mt-5 p-5" style="background-color: #FCF4F4;">
+    <div class="row container justify-content-center p-5" style="margin:auto;">
+        <div class="col" style="width: 1650px;">
+        <div class="row" style="gap:150px;">
+                <div class="col-sm-3 col-md-6 mb-3 rounded" style="height: 250px; width:100px;">
+                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:200px;">
                 </div>
-
-                <div class="row gx-4 gy-4">
-                    <div class="col-sm-12 col-lg-6 col-md-6">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:250px;">
-                    </div>
-                    <div class="col-sm-12 col-lg-6 col-md-6">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:250px;">
-                    </div>
-                </div>
-
-                <div class="row gx-4 gy-4">
-                    <div class="col-sm-12 col-lg-6 col-md-6">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:250px;">
-                    </div>
-                    <div class="col-sm-12 col-lg-6 col-md-6">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:250px;">
-                    </div>
+                <div class="col-sm-9 col-md-6 mb-3 rounded">
+                   <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:200px;">
                 </div>
             </div>
-        </div>
 
-        <div class="">
-            <h2 class="redtext mt-5">Our Progress</h2>
-            <p mt-5>A permanent US executive team based in Nyeri,
-                Kenya provides leadership and deep subject
-                matter expertise in technology and business
-                operations.</p>
-            <p mt-3>We were founded by THH-LLC, a
-                technology-focused holding company in Atlanta,
-                GA with clients ranging from start-ups to global
-                enterprises. One of our objectives has been to
-                make a difference in the Silicon Savanna
-                software industry. In this regard, we have
-                managed to enter into partnerships within the
-                tech community in Kenya and rapidly grow our
-                software development team.</p>
-            <button type="button">EXPLORE OUR TECHNOLOGY SERVICES</button>
+
+            <div class="row" style="gap:150px;">
+                <div class="col-sm-3 col-md-6 mb-3 rounded" style="height: 250px; width:100px;">
+                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:200px;">
+                </div>
+                <div class="col-sm-9 col-md-6 mb-3 rounded">
+                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:200px;">
+                </div>
+            </div>
+
+            <div class="row" style="gap:150px;">
+                <div class="col-sm-3 col-md-6 mb-3 rounded" style="height: 250px; width:100px;">
+                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:200px;">
+                </div>
+                <div class="col-sm-9 col-md-6 mb-3 rounded">
+                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:200px;">
+                </div>
+            </div>
+            
+        </div>
+       
+
+        <div class="col col-sm-9 col-md-6  text-black mb-3 p-5 mt-5">
+            <div class="">
+                <h2 class="redtext mt-5">Our Progress</h2>
+                <p mt-5="">A permanent US executive team based in Nyeri,
+                    Kenya provides leadership and deep subject
+                    matter expertise in technology and business
+                    operations.</p>
+                <p mt-3="">We were founded by THH-LLC, a
+                    technology-focused holding company in Atlanta,
+                    GA with clients ranging from start-ups to global
+                    enterprises. One of our objectives has been to
+                    make a difference in the Silicon Savanna
+                    software industry. In this regard, we have
+                    managed to enter into partnerships within the
+                    tech community in Kenya and rapidly grow our
+                    software development team.</p>
+                <button type="button">EXPLORE OUR TECHNOLOGY SERVICES</button>
+            </div>
         </div>
     </div>
+
 </section>
-
-
-
-<div class="container pt-3">
-  <div class="row">
-    <div class="col-lg-3 col-sm-12 col-md-3">
-    <div class="col-lg-3 col-sm-12 col-md-3 ">
-        <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:250px;">
-    </div>
-    <div class="col-lg-3 col-sm-12 col-md-3 ">
-        <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:250px;">
-    </div>
-</div>
-    
-    <div class="col-lg-6 col-md-6 col-sm-12" >
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae iste illo dolor aliquam perferendis dolorem nihil id sit facilis, tempore temporibus tenetur totam fugit doloremque ea cumque molestias officia officiis!</p>
-    </div>
-  </div>
-
-</div>
-<!-- <section class="container">
-    <div>
-        <div class="">
-            <div class="row">
-                <div class="col-sm-16 col-lg-6 col-md-6"> <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/process_banner.jpg" alt="" class="progress" style=" height: 200px;width: 224px;
-"></div>
-                <div class="col"> <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:250px;"></div>
-            </div>
-            <div class="row">
-                <div class="col">col2</div>
-                <div class="col">col2</div>
-            </div>
-            <div class="row">
-                <div class="col">col3</div>
-                <div class="col">col3</div>
-            </div>
-
-        </div>
-        <div></div>
-    </div>
-
-</section> -->
 
 
 <!-- THH FAMILY -->
@@ -174,14 +136,6 @@ get_header();
 </section>
 
 <!-- HEAR FROM EMPLOYEES -->
-<section class="mt-5">
-    <div class="container">
-        <h2 class="redtext">Hear from Our Employees</h2>
-
-
-    </div>
-</section>
-
 
 <!-- form section -->
 <section class="section jitucontact">
