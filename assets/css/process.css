@@ -11,6 +11,16 @@
   font-size: 24px;
 }
 
+.landing{
+  display: flex;
+  flex-direction: column;
+}
+
+.world-map {
+	height: 21rem !important;
+	object-fit: cover;
+}
+
 .land_btn {
   margin: 2.5rem 0;
 }
@@ -42,6 +52,10 @@
   inline-size: 41rem;
 }
 
+.multi-country{
+  margin-left: -11rem;
+}
+
 .processTab {
   width: 65% !important;
   position: relative;
@@ -71,9 +85,71 @@
   margin-left: 5rem !important;
 }
 
+#sdlc {
+  background-color: transparent !important;
+  border: 2px solid #ffffff !important;
+}
+
+#sdlc:hover {
+  background-color: #ffffff !important;
+}
+
 .sdlcprocesses {
     margin-top: 16rem !important;
     margin-left: 12rem !important;
+}
+
+.sw_subheading {
+  text-transform: none;
+  inline-size: 46.313rem;
+  font-size: 1.25rem;
+  color: grey;
+  margin-left: 5rem !important;
+}
+
+.sdlc_p {
+  inline-size: 30rem;
+  word-spacing: 10px;
+}
+
+.closing_p {
+  font-weight: bold;
+  inline-size: 29rem;
+  word-spacing: 8px;
+}
+
+.sw_lifeCycle {
+  background-color: #ffffff;
+  line-height: 5.3;
+  text-align: left;
+  padding: 50px 0px 50px 110px;
+  border-radius: 0px 15px 15px 0px;
+  margin-top: -200px;
+  box-shadow: 5px 10px 5px #5b5b5b;
+  position: absolute;
+  width: 78rem;
+}
+
+.stages {
+  padding-top: 15px;
+}
+
+.border_stage {
+  padding-top: 20px;
+  background-color: linear-gradient(to left, #4c4647, #a65348, #d33733);
+}
+
+
+/* .border_stage {
+  border: 2px solid linear-gradient(#604942, #c86e66, #d02a25);
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+} */
+
+.muliple_processes {
+  display: flex;
+  justify-content: center;
 }
 
 .agile {
@@ -148,103 +224,4 @@ hr {
 
 .multi-country-text-desc {
   margin: 2.5rem 0;
-}
-
-@media only screen and (max-width: 550px) {
-  .land_btn {
-    margin: 5rem 0 0 0 !important;
-    flex-direction: column;
-  }
-
-  .multi-country .country,
-  .multi-country .country-desc,
-  .multi-country .conutry-content {
-    inline-size: 25rem;
-    margin: 0.5rem 0 0 11rem;
-  }
-
-  .header_text {
-    inline-size: 24rem;
-  }
-
-  .plus {
-    margin-left: -6rem;
-    margin-top: -0.5rem;
-  }
-
-  .processT {
-    inline-size: 7rem;
-    margin-left: -3rem;
-    margin-top: 1rem;
-  }
-
-  .multi-country-text-desc {
-    inline-size: 13rem;
-    margin-left: -1.5rem !important;
-  }
-
-  .multi-country-text-button {
-    margin-left: -1rem !important;
-    width: 13rem;
-  }
-
-  #v-pills-tabContent {
-    height: 26rem;
-    border: 2px dotted blue;
-  }
-
-  #v-pills-tab {
-    height: 26rem;
-  }
-
-  .plus {
-    margin-top: 1.5rem;
-  }
-
-  #v-pills-home {
-    border: 1px dotted red !important;
-  }
-  .country-summary {
-    inline-size: 22rem;
-  }
-
-  .bg-benefits img {
-    object-fit: contain;
-  }
-
-  .sw_lifeCycle {
-    margin-top: -52rem;
-    width: 23rem;
-  }
-
-  .sw_lifeCycle p {
-    inline-size: 22rem;
-    margin-left: -7rem !important;
-    line-height: 35px;
-    font-size: 1.8rem;
-  }
-  .sw_lifeCycle .headerSDLC {
-    line-height: 40px;
-    margin-left: -7rem !important;
-    inline-size: 23rem;
-    font-size: 1.95rem;
-  }
-  .sw_lifeCycle .sw_subheading {
-    margin-left: -7rem !important;
-    inline-size: 22rem;
-    font-size: 1.15rem;
-    line-height: 29px;
-  }
-
-  .sdlcprocesses {
-    margin-left: 0 !important;
-    margin-top: -11rem !important;
-  }
-  .sdlcprocesses .sdlc {
-    inline-size: 23rem;
-  }
-  .sdlcprocesses .closing_p,
-  .sdlcprocesses .sdlc_p {
-    inline-size: 24rem;
-  }
 }
