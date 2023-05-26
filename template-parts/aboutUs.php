@@ -36,54 +36,55 @@ get_header();
 
 <!-- WHO WE ARE -->
 <section>
-    <div class="container text-center mt-5">
+    <div class="container text-center mt-5 col-lg-6 col-sm-12">
         <h1 class="redtext">Who We Are</h1>
-        <h6 class="mt-5">THE Jitu is an IT Staff augmentation firm that offers scalable remote software engineers to
-            businesses. Our engineers are recent computer science graduates and the entire team in
+        <h6 class="mt-5">THE Jitu is an IT Staff augmentation firm that offers scalable remote software engineers to <br>
+            businesses. Our engineers are recent computer science graduates and the entire team in <br>
             Nyeri, Kenya is led on-site by American executives.</h6>
-        <p>Our purpose is to provide staff augmentation that enables businesses to scale their IT workforce and avoid
+        <p class="mt-3">Our purpose is to provide staff augmentation that enables businesses to scale their IT workforce and avoid <br>
             costly onboarding and common pitfalls offshore IT services often bring.</p>
-        <p>We provide staff in various fields - Designers, Business and Data Analysts, Software Developers, Project
+        <p>We provide staff in various fields - Designers, Business and Data Analysts, Software Developers, Project <br>
             Managers, and Customer Support - to guarantee business success.</p>
     </div>
 </section>
 
 <!-- OUR PROGRESS  section-->
-<section class="container-fluid mt-5 p-5" style="background-color: #FCF4F4;">
+<section class="container-fluid mt-5  " style="background-color: #FCF4F4; box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);">
     <div class="row container justify-content-center p-5" style="margin:auto;">
+            <!-- grid -->
         <div class="col" style="width: 1650px;">
-        <div class="row" style="gap:150px;">
-                <div class="col-sm-3 col-md-6 mb-3 rounded" style="height: 250px; width:100px;">
-                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:200px;">
+            <div class="row">
+                <div class="col-sm-3 col-md-6 mb-5 " >
+                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="rounded" style="height: 180px; width:200px;">
                 </div>
-                <div class="col-sm-9 col-md-6 mb-3 rounded">
-                   <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:200px;">
-                </div>
-            </div>
-
-
-            <div class="row" style="gap:150px;">
-                <div class="col-sm-3 col-md-6 mb-3 rounded" style="height: 250px; width:100px;">
-                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:200px;">
-                </div>
-                <div class="col-sm-9 col-md-6 mb-3 rounded">
-                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:200px;">
+                <div class="col-sm-9 col-md-6 mb-5 ">
+                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="rounded" style="height: 180px; width:200px;">
                 </div>
             </div>
 
-            <div class="row" style="gap:150px;">
-                <div class="col-sm-3 col-md-6 mb-3 rounded" style="height: 250px; width:100px;">
-                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:200px;">
+
+            <div class="row">
+                <div class="col-sm-3 col-md-6 mb-5 " >
+                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="rounded" style="height: 180px; width:200px;">
                 </div>
-                <div class="col-sm-9 col-md-6 mb-3 rounded">
-                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="progress" style="height: 200px; width:200px;">
+                <div class="col-sm-9 col-md-6 mb-5 ">
+                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="rounded" style="height: 180px; width:200px;">
                 </div>
             </div>
-            
+
+            <div class="row">
+                <div class="col-sm-3 col-md-6 mb-3 " >
+                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="rounded" style="height: 180px; width:200px;">
+                </div>
+                <div class="col-sm-9 col-md-6 mb-3 ">
+                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="rounded" style="height: 180px; width:200px;">
+                </div>
+            </div>
+
         </div>
-       
 
-        <div class="col col-sm-9 col-md-6  text-black mb-3 p-5 mt-5">
+
+        <div class="col col-sm-9 col-md-6  text-black p-5">
             <div class="">
                 <h2 class="redtext mt-5">Our Progress</h2>
                 <p mt-5="">A permanent US executive team based in Nyeri,
