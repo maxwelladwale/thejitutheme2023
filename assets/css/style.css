@@ -61,7 +61,7 @@ button {
 button:hover {
   background-color: var(--white-color) !important;
   background: var(--white-color) !important;
-  border-color: var(--secondary-color) !important;
+  border: var(--secondary-color) 2px solid !important;
   color: var(--secondary-color) !important;
 }
 
@@ -294,41 +294,6 @@ a {
   margin-top: 51px;
 }
 
-.processTab {
-  width: 65% !important;
-}
-
-.processT {
-  border-bottom: 1px solid #cececf;
-}
-
-.sw_lifeCycle p{
-    margin-left: 5rem !important;
-}
-
-.headerSDLC {
-  font-weight: bold;
-  inline-size: 981px;
-  word-spacing: 6px;
-  padding-bottom: 15px;
-  font-size: 2.5rem;
-  margin-left: 5rem !important;
-}
-
-.sdlcprocesses {
-    margin-top: 16rem !important;
-    margin-left: 12rem !important;
-}
-
-.agile {
-  width: 35rem;
-  object-fit: fill;
-}
-
-.subHeaderSDCL {
-  font-weight: 100px;
-  font-size: 30px;
-}
 
 /* services page start */
 .custom-bg {
