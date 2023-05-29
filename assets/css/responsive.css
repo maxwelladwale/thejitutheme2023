@@ -205,4 +205,19 @@
     #extra_linkz{
         display: none;
     }
+
+    /* Processes */
+    .sw_lifeCycle{
+        width: 92rem !important;
+    }
+
+    .subHeaderSDCL,
+    .headerSDLC{
+        margin-left: 12rem !important;
+    }
+    
+    .sw_subheading{
+        margin-left: 12rem !important;
+        inline-size: 47rem !important;
+    }
 }
