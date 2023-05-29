@@ -16,10 +16,6 @@
     color: #C3202F;
 }
 
-.sdlc{
-    inline-size: 31rem;
-}
-
 .midnav{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
     transition: box-shadow 0.3s ease-in-out;
