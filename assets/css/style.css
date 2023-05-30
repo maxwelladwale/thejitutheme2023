@@ -178,71 +178,8 @@ a {
   border: 1px solid white !important;
 }
 
-.landing{
-    display: flex;
-    flex-direction: column;
-}
-
-.multi-country{
-    margin-left: -11rem;
-}
-
-.world-map {
-	height: 21rem !important;
-	object-fit: cover;
-}
-
-#sdlc {
-  background-color: transparent !important;
-  border: 2px solid #ffffff !important;
-}
-
-#sdlc:hover {
-  background-color: #ffffff !important;
-}
-
-.sw_subheading {
-  text-transform: none;
-  inline-size: 46.313rem;
-  font-size: 1.25rem;
-  color: grey;
-  margin-left: 5rem !important;
-}
-
-.sw_lifeCycle {
-  background-color: #ffffff;
-  line-height: 5.3;
-  text-align: left;
-  padding: 50px 0px 50px 110px;
-  border-radius: 0px 15px 15px 0px;
-  margin-top: -200px;
-  box-shadow: 5px 10px 5px #5b5b5b;
-  position: absolute;
-  width: 78rem;
-}
-
 .process {
   background-color: #fdfdfd;
-}
-
-.stages {
-  padding-top: 15px;
-}
-
-.border_stage {
-  padding-top: 20px;
-  background-color: linear-gradient(to left, #4c4647, #a65348, #d33733);
-}
-
-.closing_p {
-  font-weight: bold;
-  inline-size: 29rem;
-  word-spacing: 8px;
-}
-
-.sdlc_p {
-  inline-size: 30rem;
-  word-spacing: 10px;
 }
 
 .border_stage {
@@ -252,10 +189,6 @@ a {
   border-bottom: none;
 }
 
-.muliple_processes {
-  display: flex;
-  justify-content: center;
-}
 
 .btn_mutiple {
   background-color: white !important;
@@ -320,86 +253,4 @@ a {
 }
 
 
-@media only screen and (max-width: 550px) {
-
-    .land_btn{
-        margin: 5rem 0 0 0 !important;
-        flex-direction: column;
-    }
-
-    .multi-country .country,
-    .multi-country .country-desc,
-    .multi-country .conutry-content{
-        inline-size: 25rem;
-        margin: .5rem 0 0 11rem;
-    }
-
-    .header_text{
-        inline-size: 24rem;
-    }
-
-    .plus{
-        margin-left: -6rem;
-        margin-top: -.5rem
-    }
-    
-    .processT{
-        inline-size: 7rem;
-        margin-left: -3rem;
-    }
-
-    .multi-country-text-desc{
-        inline-size: 14rem;
-        margin-left: -1.5rem;
-    }
-    
-    .multi-country-text-button{
-        margin-left: -1rem;
-    }
-
-    .country-summary{
-        inline-size: 22rem;
-    }
-
-    .bg-benefits img{
-        object-fit: contain;
-    }
-
-    .sw_lifeCycle{
-        margin-top: -52rem;
-        width: 23rem;
-    }
-    
-    .sw_lifeCycle p{
-        inline-size: 22rem;
-        margin-left: -7rem !important;
-        line-height: 35px;
-        font-size: 1.8rem;
-    }
-    .sw_lifeCycle .headerSDLC{
-        line-height: 40px;
-        margin-left: -7rem !important;
-        inline-size: 23rem;
-        font-size: 1.95rem;
-    }
-    .sw_lifeCycle .sw_subheading{
-        margin-left: -7rem !important;
-        inline-size: 22rem;
-        font-size: 1.15rem;
-        line-height: 29px;
-    }
-
-    .sdlcprocesses{
-        margin-left: 0 !important;
-        margin-top: -11rem !important;
-    }
-    .sdlcprocesses .sdlc{
-        inline-size: 23rem;
-    }
-    .sdlcprocesses .closing_p,
-    .sdlcprocesses .sdlc_p{
-        inline-size: 24rem;
-    }
-
-  }
-
+ 

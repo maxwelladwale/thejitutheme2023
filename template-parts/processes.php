@@ -13,7 +13,7 @@ get_header();
 
 ?>
 <!-- BANNER -->
-<section style="box-shadow: 0px 6px 9px 5px rgba(0, 0, 0, 0.1);">
+<section class="banners" style="box-shadow: 0px 6px 9px 5px rgba(0, 0, 0, 0.1);">
     <div class="container-fluid banner d-flex align-items-center" style="height:90vh">
         <div class="container">
             <div class="row align-items-start landing">
@@ -33,7 +33,7 @@ get_header();
 </section>
 
 <!-- MID NAV -->
-<section class="section pb-5">
+<section class="section pb-5 multi-country-processes">
     <div class="container">
         <div class="row mt-5 mb-5">
             <div class="col-md-6 col-sm-12">
@@ -125,36 +125,52 @@ get_header();
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Accordion Item #1
+                                        Faster turnaround times
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        <p>With teams working in different time zones, we can complete projects faster than companies with only one location. This means that our clients can get their projects completed faster, without sacrificing quality.</p>
+                                        <button class="multi-country-text-button">VIEW OUR SERVICES</button>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Accordion Item #2
+                                        Greater flexibility
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        <p>Our multi-country processes mean we provide our clients with more flexibilty in project timelines and scheduling. We can work around our clients' schedules, ensuring their projects are completed on time and within budget.</p>
+                                        <button class="multi-country-text-button">VIEW OUR SERVICES</button>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Accordion Item #3
+                                        Better quality
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        <p>With teams in both the United States and Kenya, we offer our clients the benefits of diverse perspectives and expertise. This means that our clients receive higher-quality services that meet their specific needs.</p>
+                                        <button class="multi-country-text-button">VIEW OUR SERVICES</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Cost savings
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>By utilizing offshore teams, we offer our clients cost savings without sacrificing quality. This means that our clients receive high-quality web development services at a more affordable price.</p>
+                                        <button class="multi-country-text-button">VIEW OUR SERVICES</button>
                                     </div>
                                 </div>
                             </div>
@@ -168,9 +184,7 @@ get_header();
 <!-- software development life-cycle -->
 
 <section class=" section">
-    <div class="container-fluid">
-        <!-- <div class="col-md-6 col-sm-12"> -->
-
+    <div class="container-fluid img-sdlc">
         <div class="bg-benefits">
             <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/process__banner.jpg" class="img-thumbnail" alt="">
         </div>
@@ -183,14 +197,12 @@ get_header();
                 We believe that effective software development requires a comprehensive approach that covers every stage of the project lifecycle, from planning to deployment.
             </h6>
         </div>
-
-        <!-- </div>    -->
     </div>
 </section>
 
-<section>
-    <div class="container sdlcprocesses">
-        <div class="row mt-5 mb-5">
+<section class="agile-process">
+    <div class="container ">
+        <div class="row mt-5 mb-5 sdlcprocesses">
             <div class="col-md-6 col-sm-12">
                 <div class="sdlcprocess">
                     <h1 class="redtext sdlc">Our SDLC process consists of the following stages:</h1>
