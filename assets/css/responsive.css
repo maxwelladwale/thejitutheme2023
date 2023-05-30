@@ -1,4 +1,5 @@
 /* Small mobile screens */
+/* Small mobile screens */
 @media only screen and (max-width: 600px) {
   .main_footer {
     display: flex;
