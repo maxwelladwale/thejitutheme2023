@@ -1,0 +1,46 @@
+.box{
+    width: 100%;
+}
+
+.previous,
+.next{
+    margin: 0 9rem;
+    background: transparent !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-image: none;
+    color: #c3202f;
+}
+
+.testimonial-title{
+    color: #c3202f;
+    text-align: center;
+    font-size: 24px;
+}
+
+.testimonial-content{
+    color: dimgray;
+    inline-size: 42rem;
+    word-spacing: 5px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+.testimonial-author{
+    font-weight: bold;
+    font-size: 21px;
+    color: black;
+    text-align: end;
+    margin-right: 24rem;
+    margin-bottom: 5rem;
+}
+
+.indicators{
+    background: #c3202f !important;
+    height: 10px !important;
+    width: 1px !important;
+    border-radius: 50% !important;
+}
