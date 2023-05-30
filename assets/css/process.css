@@ -3,17 +3,6 @@
   position: relative;
 }
 
-.banners::after {
-  content: "";
-  position: absolute;
-  height: 53px;
-  background-color: #232323;
-  width: 55rem;
-  bottom: -25px;
-  border-radius: 56%;
-  filter: blur(20px);
-}
-
 .landing {
   display: flex;
   flex-direction: column;
@@ -21,17 +10,6 @@
 
 .multi-country-processes {
   position: relative;
-}
-
-.multi-country-processes::after {
-  content: "";
-  background-color: #696969;
-  position: absolute;
-  height: 37px;
-  width: 55rem;
-  transform: skewX(-0.24turn);
-  opacity: 0.5;
-  filter: blur(10px);
 }
 
 .testimonials .card {
