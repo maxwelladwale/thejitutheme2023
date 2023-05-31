@@ -49,7 +49,7 @@ get_header();
                         <div class="row">
                             <div class="col-md-2 d-flex align-items-center justify-content-center">
                                 <!-- <i class="ri-cpu-line"></i>  -->
-                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/technology.png" class="img-thumbnail" alt="">
+                                <img id="services-img" src="<?php echo get_template_directory_uri() ?>/assets/img/icons/technology.png" class="img-thumbnail" alt="">
                             </div>
                             <div class="col-md-10">
                                 <div class="card-body">
@@ -68,7 +68,7 @@ get_header();
                         <div class="row">
                             <div class="col-md-2 d-flex align-items-center justify-content-center">
                                 <!-- <i class="ri-bar-chart-grouped-fill"></i> -->
-                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/outsourcing.png" class="img-thumbnail" alt="">
+                                <img id="services-img" src="<?php echo get_template_directory_uri() ?>/assets/img/icons/outsourcing.png" class="img-thumbnail" alt="">
                             </div>
                             <div class="col-md-10">
                                 <div class="card-body">
@@ -87,7 +87,7 @@ get_header();
                         <div class="row">
                             <div class="col-md-2 d-flex align-items-center justify-content-center">
                                 <!-- <i class="ri-graduation-cap-line"></i>  -->
-                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/train.png" class="img-thumbnail" alt="">
+                                <img id="services-img" src="<?php echo get_template_directory_uri() ?>/assets/img/icons/train.png" class="img-thumbnail" alt="">
                             </div>
                             <div class="col-md-10">
                                 <div class="card-body">
@@ -168,13 +168,13 @@ get_header();
             </div>
         </div>
     </div>
-    <button class="carousel-control-prev previous" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <button id="previous" class="carousel-control-prev previous" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true">
         <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/back.png">
         </span>
         <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <button id="next" class="carousel-control-next next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"><img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/next.png"></span>
         <span class="visually-hidden">Next</span>
     </button>
