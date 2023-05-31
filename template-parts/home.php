@@ -14,7 +14,7 @@ get_header();
 ?>
 <!-- BANNER -->
 <section style="box-shadow: 0px 6px 9px 5px rgba(0, 0, 0, 0.1);">
-    <div class="container-fluid banner d-flex align-items-center" style="height:90vh">
+    <div class="container-fluid banner d-flex align-items-center banns" style="height:90vh">
         <div class="container">
             <div class="row align-items-start">
                 <div class="col-sm-12 col-lg-6 col-md-6">
@@ -33,7 +33,7 @@ get_header();
 </section>
 
 <!-- MID NAV -->
-<section class="section pb-5">
+<section class="section pb-5 services">
     <div class="container">
         <div class="row mt-5 mb-5">
             <div class="col-md-6 col-sm-12">
@@ -49,7 +49,7 @@ get_header();
                         <div class="row">
                             <div class="col-md-2 d-flex align-items-center justify-content-center">
                                 <!-- <i class="ri-cpu-line"></i>  -->
-                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/tech.png" class="img-thumbnail" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/technology.png" class="img-thumbnail" alt="">
                             </div>
                             <div class="col-md-10">
                                 <div class="card-body">
@@ -68,7 +68,7 @@ get_header();
                         <div class="row">
                             <div class="col-md-2 d-flex align-items-center justify-content-center">
                                 <!-- <i class="ri-bar-chart-grouped-fill"></i> -->
-                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/bpo.png" class="img-thumbnail" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/outsourcing.png" class="img-thumbnail" alt="">
                             </div>
                             <div class="col-md-10">
                                 <div class="card-body">
@@ -87,7 +87,7 @@ get_header();
                         <div class="row">
                             <div class="col-md-2 d-flex align-items-center justify-content-center">
                                 <!-- <i class="ri-graduation-cap-line"></i>  -->
-                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/training.png" class="img-thumbnail" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/train.png" class="img-thumbnail" alt="">
                             </div>
                             <div class="col-md-10">
                                 <div class="card-body">
@@ -106,11 +106,13 @@ get_header();
 </section>
 
 <!-- WHY THE JITU -->
-<?php the_content(); ?>
+<div class="box">
+    <?php the_content(); ?>
+</div>
 
 <!-- THH FAMILY -->
 <section class="section">
-    <div class="container-fluid mt-5 mb-5">
+    <div class="container-fluid mt-5 mb-5 why-jitu">
         <div class="container text-center ">
             <h3 class="text-uppercase">We are part of the THH-LLC <br> technology family</h3>
             <p>
@@ -137,7 +139,7 @@ get_header();
 </section>
 
 <!-- TESTIMONIALS -->
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide testimonials" data-bs-ride="carousel">
     <div class="carousel-indicators">
         <button class="indicators active" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
         <button class="indicators" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -145,21 +147,21 @@ get_header();
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <div class="box">
+            <div class="test-box">
                 <p class="testimonial-title">Hear what our clients say about us</p>
                 <p class="testimonial-content">"Using THE Jitu resources has allowed our tean to better leverage our domestic talent and accomplish more in less time, a win, a win."</p>
                 <p class="testimonial-author">- Kyle Fisher, CFO THH Holdings</p>
             </div>
         </div>
         <div class="carousel-item">
-            <div class="box">
+            <div class="test-box">
             <p class="testimonial-title">Hear what our clients say about us</p>
                 <p class="testimonial-content">"Partnering with THE Jitu has allowed our company to expand service levels and decrease response time, enabling us to better focus and expand our client base. Great talent and commitment from everyone involved."</p>
                 <p class="testimonial-author">- Joshua Sarno, 4Cloud Services</p>
             </div>
         </div>
         <div class="carousel-item">
-            <div class="box">
+            <div class="test-box">
             <p class="testimonial-title">Hear what our clients say about us</p>
                 <p class="testimonial-content">"Leveraging THE Jitu resources has allowed our team to work more efficiently. We can achieve and deliver the end product much faster while maintaining the same scope of work with reduced costs."</p>
                 <p class="testimonial-author">- Samir Vaghmar, Sr. Consultant AcquireTek</p>
