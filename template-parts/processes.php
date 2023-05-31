@@ -62,7 +62,7 @@ get_header();
 
 <!-- benefits to clients section -->
 <section>
-    <div class="testimonials mb-5">
+    <div class="testimonial mb-5">
         <div class="container">
             <div class="row py-5 text-center">
                 <div class="col-12 d-flex flex-column align-items-center sm-flex-column">
