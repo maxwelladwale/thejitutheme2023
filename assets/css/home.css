@@ -1,0 +1,74 @@
+.test-box {
+  width: 100%;
+}
+
+.previous,
+.next {
+  margin: 0 9rem;
+  background: transparent !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+  color: #c3202f;
+}
+
+.testimonial-title {
+  color: #c3202f;
+  text-align: center;
+  font-size: 24px;
+}
+
+.testimonial-content {
+  color: dimgray;
+  inline-size: 42rem;
+  word-spacing: 5px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 24px;
+}
+
+.testimonial-author {
+  font-weight: bold;
+  font-size: 21px;
+  color: black;
+  text-align: end;
+  margin-right: 24rem;
+  margin-bottom: 5rem;
+}
+
+.carousel-indicator-active-bg{
+    color: #c3202f !important;
+}
+
+.indicators {
+  background: #696969 !important;
+  height: 10px !important;
+  width: 10px !important;
+  padding: 0 !important;
+  border-radius: 50% !important;
+}
+
+
+
+.services {
+  background: white;
+  position: relative;
+}
+.box {
+  position: relative;
+  background: #fcf5f5;
+}
+
+.why-jitu {
+  position: relative;
+}
+
+.testimonials {
+  position: relative;
+}
+
+.carousel-inner {
+  background-color: white;
+}

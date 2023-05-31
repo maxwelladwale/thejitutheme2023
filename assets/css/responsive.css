@@ -1,5 +1,4 @@
 /* Small mobile screens */
-/* Small mobile screens */
 @media only screen and (max-width: 600px) {
   .main_footer {
     display: flex;
@@ -37,6 +36,90 @@
     margin-bottom: 40px;
     margin-top: -40px;
   }
+
+  .jitucontact::before{
+    width: 13rem !important;
+  }
+
+  .jitucontact::after{
+    width: 12rem !important;
+    right: 0;
+  }
+
+  /* Home */
+  /* .services::before {
+    content: "";
+    position: absolute;
+    width: 12rem;
+    height: 47px;
+    background-color: #696969;
+    right: -1rem;
+    border-bottom-left-radius: 80%;
+    filter: blur(14px);
+    top: -7rem;
+    z-index: -1;
+  }
+  
+  .services::after {
+    content: "";
+    position: absolute;
+    width: 12rem;
+    height: 47px;
+    background-color: #696969;
+    left: -1rem;
+    border-bottom-right-radius: 80%;
+    filter: blur(14px);
+    top: -7rem;
+    z-index: -1;
+  } */
+
+  .why-jitu::before {
+    content: "";
+    position: absolute;
+    width: 16rem;
+    height: 40px;
+    background-color: dimgray;
+    left: 4rem;
+    border-radius: 50%;
+    filter: blur(8px);
+    top: -6.25rem;
+    z-index: -1;
+  }
+
+  .testimonial-title{
+    inline-size: 17rem;
+    margin: .5rem 3rem;
+  }
+  .testimonial-content{
+    inline-size: 19rem;
+  }
+  .testimonial-author{
+    inline-size: 12rem;
+    margin-left: 9rem;
+  }
+
+  .testimonials::before {
+    content: "";
+    position: absolute;
+    width: 16rem;
+    height: 32px;
+    background-color: dimgray;
+    left: 4rem;
+    top: -1rem;
+    border-radius: 50%;
+    filter: blur(15px);
+  }
+
+  .previous,
+  .next{
+    height: 4rem;
+    margin: 18rem 0;
+  }
+  
+  .carousel-control-prev-icon img,
+  .carousel-control-next-icon img{
+    width: 36px !important;
+    height: 2rem !important;
 
   /* Training */
   .threetraining {
@@ -123,6 +206,7 @@
   .calendar-img {
     width: 100%;
     object-fit: contain;
+
   }
 
   /* Processes */
@@ -134,7 +218,7 @@
     bottom: -25px;
     border-radius: 56%;
     filter: blur(20px);
-    width: 25rem;
+    width: 20rem;
     left: 0;
   }
   .banner-title {
@@ -329,6 +413,63 @@
     margin-bottom: 40px;
     margin-top: -40px;
   }
+  /* Home */
+  .banner::after{
+    content: "";
+    position: absolute;
+    height: 53px;
+    background-color: #232323;
+    bottom: -25px;
+    border-radius: 56%;
+    filter: blur(20px);
+    width: 35rem;
+    left: 0;
+  }
+
+  .why-jitu::before {
+    content: "";
+    position: absolute;
+    width: 33rem;
+    height: 40px;
+    background-color: dimgray;
+    left: 4rem;
+    border-radius: 50%;
+    filter: blur(8px);
+    top: -6.25rem;
+    z-index: -1;
+  }
+
+  .testimonials::before {
+    content: "";
+    position: absolute;
+    width: 31rem;
+    height: 32px;
+    background-color: dimgray;
+    left: 4rem;
+    top: -1rem;
+    border-radius: 50%;
+    filter: blur(15px);
+  }
+
+  .previous,
+  .next{
+    height: 4rem;
+    margin: 10rem 0;
+  }
+  
+  .carousel-control-prev-icon img,
+  .carousel-control-next-icon img{
+    width: 36px !important;
+    height: 2rem !important;
+  }
+
+  .testimonial-content{
+    inline-size: 26rem;
+  }
+  .testimonial-author{
+    inline-size: 12rem;
+    margin-left: 22rem;
+  }
 }
 
 /* Medium devices  */
@@ -393,6 +534,64 @@
 
   #attchmentbtn {
     width: 65% !important;
+  }
+
+  /* Home */
+  .banner::after{
+    content: "";
+    position: absolute;
+    height: 53px;
+    background-color: #232323;
+    bottom: 0.7rem;
+    border-radius: 56%;
+    filter: blur(20px);
+    width: 35rem;
+    left: 0;
+  }
+
+  .why-jitu::before {
+    content: "";
+    position: absolute;
+    width: 44rem;
+    height: 40px;
+    background-color: dimgray;
+    left: 4rem;
+    border-radius: 50%;
+    filter: blur(8px);
+    top: -6.25rem;
+    z-index: -1;
+  }
+
+  .testimonials::before {
+    content: "";
+    position: absolute;
+    width: 45rem;
+    height: 32px;
+    background-color: dimgray;
+    left: 4rem;
+    top: -1rem;
+    border-radius: 50%;
+    filter: blur(15px);
+  }
+
+  .previous,
+  .next{
+    height: 4rem;
+    margin: 17rem 0;
+  }
+  
+  .carousel-control-prev-icon img,
+  .carousel-control-next-icon img{
+    width: 36px !important;
+    height: 2rem !important;
+  }
+
+  .testimonial-content{
+    inline-size: 30rem;
+  }
+  .testimonial-author{
+    inline-size: 12rem;
+    margin-left: 28rem;
   }
 
   /* processes */
@@ -549,6 +748,125 @@
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1850px) {
+  /* Home */
+  .banner::after{
+    content: "";
+    position: absolute;
+    height: 53px;
+    background-color: #232323;
+    bottom: 0.7rem;
+    border-radius: 56%;
+    filter: blur(20px);
+    width: 35rem;
+    left: 0;
+  }
+
+  .why-jitu::before {
+    content: "";
+    position: absolute;
+    width: 44rem;
+    height: 40px;
+    background-color: dimgray;
+    left: 4rem;
+    border-radius: 50%;
+    filter: blur(8px);
+    top: -6.25rem;
+    z-index: -1;
+  }
+
+  .testimonials::before {
+    content: "";
+    position: absolute;
+    width: 45rem;
+    height: 32px;
+    background-color: dimgray;
+    left: 4rem;
+    top: -1rem;
+    border-radius: 50%;
+    filter: blur(15px);
+  }.services::before {
+    content: "";
+    position: absolute;
+    width: 47rem;
+    height: 47px;
+    background-color: #696969;
+    right: -1rem;
+    border-bottom-left-radius: 80%;
+    filter: blur(14px);
+    top: -6rem;
+    z-index: -1;
+  }
+  
+  .services::after {
+    content: "";
+    position: absolute;
+    width: 47rem;
+    height: 47px;
+    background-color: #696969;
+    left: -1rem;
+    border-bottom-right-radius: 80%;
+    filter: blur(14px);
+    top: -6rem;
+    z-index: -1;
+  }
+
+  .why-jitu::before {
+    content: "";
+    position: absolute;
+    width: 40rem;
+    height: 40px;
+    background-color: dimgray;
+    left: 10rem;
+    border-radius: 50%;
+    filter: blur(8px);
+    top: -6.25rem;
+    z-index: -1;
+  }
+  .why-jitu::after {
+    content: "";
+    position: absolute;
+    width: 40rem;
+    height: 32px;
+    background-color: dimgray;
+    left: 46rem;
+    border-radius: 65%;
+    filter: blur(8px);
+    top: -6rem;
+    z-index: -1;
+  }
+
+  .testimonials::before {
+    content: "";
+    position: absolute;
+    width: 70rem;
+    height: 32px;
+    background-color: dimgray;
+    left: 16rem;
+    top: -1rem;
+    border-radius: 50%;
+    filter: blur(15px);
+  }
+
+  .previous,
+  .next{
+    height: 4rem;
+    margin: 10rem 0;
+  }
+  
+  .carousel-control-prev-icon img,
+  .carousel-control-next-icon img{
+    width: 36px !important;
+    height: 2rem !important;
+  }
+
+  .testimonial-content{
+    inline-size: 45rem;
+  }
+  .testimonial-author{
+    inline-size: 12rem;
+    margin-left: 60rem;
+  }
+
   /* Processes */
   .banners::after {
     content: "";
@@ -727,6 +1045,70 @@
   }
   #extra_linkz {
     display: none;
+  }
+
+  /* Home */
+  .services::before {
+    content: "";
+    position: absolute;
+    width: 47rem;
+    height: 47px;
+    background-color: #696969;
+    right: -1rem;
+    border-bottom-left-radius: 80%;
+    filter: blur(14px);
+    top: -6rem;
+    z-index: -1;
+  }
+  
+  .services::after {
+    content: "";
+    position: absolute;
+    width: 47rem;
+    height: 47px;
+    background-color: #696969;
+    left: -1rem;
+    border-bottom-right-radius: 80%;
+    filter: blur(14px);
+    top: -6rem;
+    z-index: -1;
+  }
+
+  .why-jitu::before {
+    content: "";
+    position: absolute;
+    width: 40rem;
+    height: 40px;
+    background-color: dimgray;
+    left: 10rem;
+    border-radius: 50%;
+    filter: blur(8px);
+    top: -6.25rem;
+    z-index: -1;
+  }
+  .why-jitu::after {
+    content: "";
+    position: absolute;
+    width: 40rem;
+    height: 32px;
+    background-color: dimgray;
+    left: 46rem;
+    border-radius: 65%;
+    filter: blur(8px);
+    top: -6rem;
+    z-index: -1;
+  }
+
+  .testimonials::before {
+    content: "";
+    position: absolute;
+    width: 70rem;
+    height: 32px;
+    background-color: dimgray;
+    left: 16rem;
+    top: -1rem;
+    border-radius: 50%;
+    filter: blur(15px);
   }
 
   /* Processes */
