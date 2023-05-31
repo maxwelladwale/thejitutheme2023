@@ -66,12 +66,12 @@ get_header();
 
 <!-- What we teach section -->
 <section class="teach">
-    <div class="testimonials">
+    <div class="">
         <div class="container">
             <div class="row py-5 text-center">
                 <div class="col-12 d-flex flex-column align-items-center">
                     <h4 class="redtext">WHAT WE TEACH</h4>
-                    <h4 class="py-3 col-lg-6 col-sm-12 resources" style="font-size: 20px; inline-size: 740px;">
+                    <h4 class="py-3 col-lg-6 col-sm-12 resources" style="font-size: 30px; inline-size: 740px;">
                     In order to ensure that our resources are competitive in the market, we teach market-based technologies and professional skills.
                     </h4>
                 </div>
@@ -80,7 +80,7 @@ get_header();
                     <div class="row justify-content-center row-cols-2 row-cols-lg-5 g-5 g-lg-3">
                         <div class="col">
                             <div class="stackIcon">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/React-icon.svg.webp" class="img-thumbnail" alt="">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/React-icon.svg.webp" class="img-thumbnail icon" alt="">
                             </div>
                             <div class="stack">
                                 <p style="font-size: 20px;">React/Node Express Js</p>
@@ -88,7 +88,7 @@ get_header();
                         </div>
                         <div class="col">
                             <div class="stackIcon">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/AngularJS-Icon.webp" class="img-thumbnail" alt="">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/AngularJS-Icon.webp" class="img-thumbnail icon" alt="">
                             </div>
                             <div class="stack">
                                 <p style="font-size: 20px;">Angular/Node Express Js</p>
@@ -96,7 +96,7 @@ get_header();
                         </div>
                         <div class="col">
                             <div class="stackIcon">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/wordpress.webp" class="img-thumbnail" alt="">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/wordpress.webp" class="img-thumbnail icon" alt="">
                             </div>
                             <div class="stack">
                                 <p style="font-size: 20px;">Wordpress</p>
@@ -104,7 +104,7 @@ get_header();
                         </div>
                         <div class="col">
                             <div class="stackIcon">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/NET_logo.webp" class="img-thumbnail" alt="">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/NET_logo.webp" class="img-thumbnail icon" alt="">
                             </div>
                             <div class="stack">
                                 <p style="font-size: 20px;">.NET</p>
@@ -206,6 +206,48 @@ get_header();
         </div>
     </div>
 </section>
+
+<!-- TESTIMONIALS -->
+<!-- <div id="carouselExampleIndicators" class="carousel slide testimonials" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button class="indicators active" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+        <button class="indicators" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button class="indicators" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="test-box">
+                <p class="testimonial-title">Hear what our clients say about us</p>
+                <p class="testimonial-content">"Using THE Jitu resources has allowed our tean to better leverage our domestic talent and accomplish more in less time, a win, a win."</p>
+                <p class="testimonial-author">- Kyle Fisher, CFO THH Holdings</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="test-box">
+            <p class="testimonial-title">Hear what our clients say about us</p>
+                <p class="testimonial-content">"Partnering with THE Jitu has allowed our company to expand service levels and decrease response time, enabling us to better focus and expand our client base. Great talent and commitment from everyone involved."</p>
+                <p class="testimonial-author">- Joshua Sarno, 4Cloud Services</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="test-box">
+            <p class="testimonial-title">Hear what our clients say about us</p>
+                <p class="testimonial-content">"Leveraging THE Jitu resources has allowed our team to work more efficiently. We can achieve and deliver the end product much faster while maintaining the same scope of work with reduced costs."</p>
+                <p class="testimonial-author">- Samir Vaghmar, Sr. Consultant AcquireTek</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev previous" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true">
+        <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/back.png">
+        </span>
+        <span class="visually-hidden">Previous</span>
+    </button>`
+    <button class="carousel-control-next next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"><img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/next.png"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div> -->
 
 
 
