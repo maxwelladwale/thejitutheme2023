@@ -48,13 +48,13 @@
 
   .trainingp1 {
     padding-left: 10px;
+    inline-size: 346px !important;
   }
 
   .resources {
     width: 100%;
     inline-size: 316px !important;
     text-align: start;
-    outline: 4px dotted dodgerblue;
   }
 
   .check1 {
@@ -113,6 +113,11 @@
   .attchmentContent {
     padding-right: 37px;
     padding-left: 10px;
+    inline-size: 389px !important;
+  }
+
+  #attchmentbtn {
+    width: 63%;
   }
 
   .calendar-img {

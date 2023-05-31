@@ -159,7 +159,7 @@ get_header();
 </section>
 
 <!-- Our program calendar -->
-<section class="section pb-5 py-5 bg-program" >
+<section class=" pb-5 py-5 bg-program" >
     <div class="container">
         <div class="row mt-5 mb-5">
             <div class="col-md-6 col-sm-12">
@@ -183,7 +183,7 @@ get_header();
 </section>
 
 <!-- Attachments -->
-<section class="section pb-5 py-5 program">
+<section class=" pb-5 py-5 program">
     <div class="container">
         <div class="row mt-5 mb-5">
             <div class="col-md-6 col-sm-12">
