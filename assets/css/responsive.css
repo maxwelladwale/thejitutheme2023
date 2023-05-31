@@ -37,11 +37,11 @@
     margin-top: -40px;
   }
 
-  .jitucontact::before{
+  .jitucontact::before {
     width: 13rem !important;
   }
 
-  .jitucontact::after{
+  .jitucontact::after {
     width: 12rem !important;
     right: 0;
   }
@@ -86,14 +86,14 @@
     z-index: -1;
   }
 
-  .testimonial-title{
+  .testimonial-title {
     inline-size: 17rem;
-    margin: .5rem 3rem;
+    margin: 0.5rem 3rem;
   }
-  .testimonial-content{
+  .testimonial-content {
     inline-size: 19rem;
   }
-  .testimonial-author{
+  .testimonial-author {
     inline-size: 12rem;
     margin-left: 9rem;
   }
@@ -111,13 +111,13 @@
   }
 
   .previous,
-  .next{
+  .next {
     height: 4rem;
     margin: 18rem 0;
   }
-  
+
   .carousel-control-prev-icon img,
-  .carousel-control-next-icon img{
+  .carousel-control-next-icon img {
     width: 36px !important;
     height: 2rem !important;
   }
@@ -207,7 +207,6 @@
   .calendar-img {
     width: 100%;
     object-fit: contain;
-
   }
 
   /* Processes */
@@ -415,7 +414,7 @@
     margin-top: -40px;
   }
   /* Home */
-  .banner::after{
+  .banner::after {
     content: "";
     position: absolute;
     height: 53px;
@@ -453,21 +452,21 @@
   }
 
   .previous,
-  .next{
+  .next {
     height: 4rem;
     margin: 10rem 0;
   }
-  
+
   .carousel-control-prev-icon img,
-  .carousel-control-next-icon img{
+  .carousel-control-next-icon img {
     width: 36px !important;
     height: 2rem !important;
   }
 
-  .testimonial-content{
+  .testimonial-content {
     inline-size: 26rem;
   }
-  .testimonial-author{
+  .testimonial-author {
     inline-size: 12rem;
     margin-left: 22rem;
   }
@@ -538,7 +537,12 @@
   }
 
   /* Home */
-  .banner::after{
+  #services-img {
+    height: 3rem;
+    margin-left: 2rem;
+  }
+
+  .banner::after {
     content: "";
     position: absolute;
     height: 53px;
@@ -576,21 +580,22 @@
   }
 
   .previous,
-  .next{
+  .next {
     height: 4rem;
-    margin: 17rem 0;
+    margin: 17rem 1rem;
+    width: 4rem !important;
   }
-  
+
   .carousel-control-prev-icon img,
-  .carousel-control-next-icon img{
+  .carousel-control-next-icon img {
     width: 36px !important;
     height: 2rem !important;
   }
 
-  .testimonial-content{
+  .testimonial-content {
     inline-size: 30rem;
   }
-  .testimonial-author{
+  .testimonial-author {
     inline-size: 12rem;
     margin-left: 28rem;
   }
@@ -750,7 +755,7 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1850px) {
   /* Home */
-  .banner::after{
+  .banner::after {
     content: "";
     position: absolute;
     height: 53px;
@@ -785,7 +790,8 @@
     top: -1rem;
     border-radius: 50%;
     filter: blur(15px);
-  }.services::before {
+  }
+  .services::before {
     content: "";
     position: absolute;
     width: 47rem;
@@ -797,7 +803,7 @@
     top: -6rem;
     z-index: -1;
   }
-  
+
   .services::after {
     content: "";
     position: absolute;
@@ -849,24 +855,38 @@
   }
 
   .previous,
-  .next{
+  .next {
     height: 4rem;
-    margin: 10rem 0;
+    margin: 10rem 1rem;
+    width: 5rem !important;
   }
-  
+
   .carousel-control-prev-icon img,
-  .carousel-control-next-icon img{
+  .carousel-control-next-icon img {
     width: 36px !important;
     height: 2rem !important;
   }
 
-  .testimonial-content{
+  .testimonial-content {
     inline-size: 45rem;
   }
-  .testimonial-author{
+  .testimonial-author {
     inline-size: 12rem;
     margin-left: 60rem;
   }
+
+  /* .previous,
+  .next {
+    margin: 0 9rem;
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .testimonials img {
+    height: 55px;
+    width: 66px;
+    margin-top: 6rem;
+  } */
 
   /* Processes */
   .banners::after {
@@ -1061,7 +1081,7 @@
     top: -6rem;
     z-index: -1;
   }
-  
+
   .services::after {
     content: "";
     position: absolute;
@@ -1110,6 +1130,20 @@
     top: -1rem;
     border-radius: 50%;
     filter: blur(15px);
+  }
+
+  #previous {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 6rem;
+    margin-left: 24rem;
+  }
+
+  #next {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 6rem;
+    margin-right: 14rem;
   }
 
   /* Processes */
