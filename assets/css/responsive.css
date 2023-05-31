@@ -120,6 +120,93 @@
   .carousel-control-next-icon img{
     width: 36px !important;
     height: 2rem !important;
+
+  /* Training */
+  .threetraining {
+    width: 100%;
+    inline-size: 355px !important;
+    text-align: start;
+    padding-left: 10px;
+  }
+
+  .trainingp1 {
+    padding-left: 10px;
+    inline-size: 346px !important;
+  }
+
+  .resources {
+    width: 100%;
+    inline-size: 316px !important;
+    text-align: start;
+  }
+
+  .check1 {
+    margin-bottom: 34px !important;
+  }
+
+  .check2 {
+    margin-bottom: 38px !important;
+  }
+
+  .check3 {
+    margin-bottom: 71px !important;
+    margin-right: -43px !important;
+    margin-left: 37px !important;
+  }
+
+  .checkp1 {
+    margin-left: -4px !important;
+  }
+
+  .checkp2 {
+    margin-left: 62px !important;
+  }
+
+  .checkdiv1 {
+    height: 122px !important;
+  }
+
+  .checkdiv2 {
+    height: 42px !important;
+    margin-left: 126px !important;
+  }
+
+  .checkdiv3 {
+    height: 149px !important;
+  }
+
+  .cont {
+    margin-left: 10px;
+  }
+
+  .trainingp2 {
+    width: 100%;
+    inline-size: 340px !important;
+    text-align: start;
+    padding-right: 21px;
+    padding-left: 10px;
+  }
+
+  .programContent {
+    width: 100%;
+    inline-size: 363px !important;
+    padding-right: 10px;
+  }
+
+  .attchmentContent {
+    padding-right: 37px;
+    padding-left: 10px;
+    inline-size: 389px !important;
+  }
+
+  #attchmentbtn {
+    width: 63%;
+  }
+
+  .calendar-img {
+    width: 100%;
+    object-fit: contain;
+
   }
 
   /* Processes */
@@ -415,6 +502,38 @@
     border-right: 1px solid black;
     padding-right: 20px;
     padding-left: 20px;
+  }
+  /* Training */
+  .threetraining {
+    width: 100%;
+    inline-size: 745px;
+    text-align: start;
+  }
+
+  .trainingp1 {
+    width: 100%;
+    inline-size: 336px !important;
+    text-align: start;
+  }
+
+  .trainingp2 {
+    width: 100%;
+    inline-size: 379px !important;
+    text-align: start;
+  }
+
+  .programContent {
+    width: 100%;
+    inline-size: 372px !important;
+  }
+
+  .attchmentContent {
+    width: 100%;
+    inline-size: 391px !important;
+  }
+
+  #attchmentbtn {
+    width: 65% !important;
   }
 
   /* Home */

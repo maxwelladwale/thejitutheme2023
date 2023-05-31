@@ -1,67 +1,69 @@
-.trainingContent{
-    background-color: "#FCF4F4";
-  }
+.trainingContent {
+  background-color: "#FCF4F4";
+}
 
-  #v-pills-turnaround-tab, #v-pills-flexiblity-tab, #v-pills-quality-tab, #v-pills-davings-tab{
-    background-color: white !important;  }
+#v-pills-turnaround-tab,
+#v-pills-flexiblity-tab,
+#v-pills-quality-tab,
+#v-pills-davings-tab {
+  background-color: white !important;
+}
 
-    #v-pills-turnaround-tab, #v-pills-flexiblity-tab, #v-pills-quality-tab, #v-pills-davings-tab:hover{
-    background-color: white !important;
-  }
+#v-pills-turnaround-tab,
+#v-pills-flexiblity-tab,
+#v-pills-quality-tab,
+#v-pills-davings-tab:hover {
+  background-color: white !important;
+}
 
-  #trainingbtn{
-    background-color: white !important;
-    border: 2px solid #84302D !important;
-    color: #F68B2A !important;
-    inline-size: 300px;
-  }
+#trainingbtn {
+  background-color: white !important;
+  border: 2px solid #84302d !important;
+  color: #f68b2a !important;
+  inline-size: 300px;
+}
 
-  #trainingbtn :hover{
-    background-color: #F68B2A !important;
-    color: #ffffff;
-  }
+#trainingbtn :hover {
+  background-color: #f68b2a !important;
+  color: #ffffff;
+}
 
-  .threetraining{
-    width: 100%;
-  }
+.threetraining {
+  width: 100%;
+  inline-size: 1247px;
+}
 
-  .training-desc{
-    inline-size: 484px;
+.tech-stack {
+  border: 1px solid red;
+}
 
-  }
+.rightIcon {
+  display: inline-flex;
+  align-items: center;
+}
 
-  .tech-stack{
-    border: 1px solid red;
-  }
+.rightIcon img,
+.rightIcon p {
+  vertical-align: middle;
+}
 
-  .rightIcon{
-    display: inline-flex;
-    align-items: center;
-  }
+.program {
+  box-shadow: 0px 6px 20px 5px #c6ceca;
+  margin: 0px 0px 0px 0px !important;
+}
 
-  .rightIcon img,
-  .rightIcon p{
-    vertical-align: middle;
-  }
+.programContent {
+  inline-size: 348px;
+}
 
-  .program {
-    box-shadow: 0px 6px 20px 5px #C6CECA;
-    margin: 0px 0px 0px 0px !important;
-  }
+.bg-program {
+  background-color: #f4f7f4;
+  margin: 20px 0px 0px 0px !important;
+}
 
-  .programContent{
-    inline-size: 348px;
-  }
-  /* .stack{
-  width: 24.3% !important;
-  } */
-
-.bg-program{
-    background-color: #F4F7F4;
-    margin: 20px 0px 0px 0px !important}
-
-.teach{
-  box-shadow: 0px 6px 20px 5px #C6CECA;
+.teach {
+  box-shadow: 0px 6px 20px 5px #c6ceca;
+  background-color: white;
 }
 
 #attchmentbtn {
