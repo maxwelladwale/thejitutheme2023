@@ -1,9 +1,10 @@
 /* Small mobile screens */
 @media only screen and (max-width: 600px) {
   .main_footer {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
   }
+
   .f_contacts,
   .f_quicklinks,
   .f_ourtechfam {
@@ -44,9 +45,6 @@
   .jitucontact::after {
     width: 11rem !important;
     right: 0.95rem;
-  }
-  .progress-wrap.btn-right-side {
-    right: 7.5rem !important;
   }
 
   /* Home */
@@ -381,8 +379,8 @@
 /* Smartphones and larger mobile screens */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   .main_footer {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
   }
   .f_contacts,
   .f_quicklinks,
@@ -507,8 +505,8 @@
 /* Medium devices  */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .main_footer {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
   }
   .footer_logo > a > img {
     margin: 20px 0px;
@@ -1092,7 +1090,7 @@
   .main_footer {
     display: flex;
     flex-direction: row;
-  }
+  } */
   .f_contacts,
   .f_quicklinks,
   .f_ourtechfam {
