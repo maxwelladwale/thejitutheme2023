@@ -22,7 +22,7 @@ get_header();
                     <p>
                         In addition to helping your organization reduce cost, increase productivity, and hire top talent, we offer a comprehensive suite of services. Our mission is to offer customized and personalized solutions that cater to the unique needs of each company we work with. Whether you need front-end or back-end services, technology solutions, or all three, we are here to help.
                     </p>
-                    <button class="button">Contact Us Today</button>
+                    <button class="home-btn button">Contact Us Today</button>
                 </div>
                 <div class="col">
 
@@ -38,7 +38,7 @@ get_header();
         <div class="row mt-5 mb-5">
             <div class="col-md-6 col-sm-12">
                 <h3 class="redtext">Our Services</h3>
-                <p class="mt-3"> Aside from providing extra talent in Front Office and Back Office services, we provide a training program to empower young Kenyan software developers.</p>
+                <p class="mt-3 services-contents"> Aside from providing extra talent in Front Office and Back Office services, we provide a training program to empower young Kenyan software developers.</p>
             </div>
 
             <div class="col-md-6 col-sm-12">
