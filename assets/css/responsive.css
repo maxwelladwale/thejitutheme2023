@@ -230,6 +230,10 @@
     margin-top: 8rem;
   }
 
+  .world-map {
+    object-fit: contain !important;
+  }
+
   .banner-content {
     inline-size: 20rem;
     font-size: 24px;
@@ -500,6 +504,176 @@
     inline-size: 12rem;
     margin-left: 22rem;
   }
+
+  /* Processes */
+  .banner::after {
+    content: "";
+    position: absolute;
+    height: 53px;
+    background-color: #232323;
+    bottom: -25px;
+    border-radius: 56%;
+    filter: blur(20px);
+    width: 37rem;
+    left: 2rem;
+  }
+  .banner-title {
+    inline-size: 22rem;
+    text-transform: initial !important;
+    font-size: 56px;
+    line-height: 48px;
+    margin-top: 8rem;
+  }
+
+  .world-map {
+    object-fit: contain !important;
+  }
+
+  .banner-content {
+    inline-size: 20rem;
+    font-size: 24px;
+    line-height: 43px;
+  }
+
+  .land_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 4rem;
+  }
+
+  .land_btn .button {
+    width: 16rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  #sdlc {
+    background-color: transparent !important;
+    border: 2px solid #ffffff !important;
+    margin: 0 1.5rem;
+  }
+
+  #sdlc:hover {
+    background-color: #ffffff !important;
+  }
+
+  .country-content {
+    inline-size: 21rem;
+    font-size: 20px;
+    margin-left: 11rem;
+  }
+
+  .header_text {
+    text-align: center;
+    inline-size: 21rem;
+  }
+
+  .tbs {
+    visibility: collapse;
+  }
+
+  .processTab {
+    display: none;
+  }
+
+  .accordion {
+    visibility: visible;
+    display: block;
+    border: none;
+  }
+
+  .accordion-body p {
+    text-align: start;
+  }
+
+  .multi-country-processes::after {
+    content: "";
+    background-color: #696969;
+    position: absolute;
+    height: 27px;
+    width: 13rem;
+    transform: skewX(-0.24turn);
+    opacity: 0.5;
+    filter: blur(10px);
+    left: -29rem;
+  }
+
+  .multi-country-text-button {
+    margin-left: -9rem;
+  }
+
+  .multi-country .country,
+  .multi-country .country-desc,
+  .multi-country .conutry-content {
+    inline-size: 30rem;
+    margin: 0.5rem 0 0 11rem;
+  }
+
+  .plus {
+    margin-left: -6rem;
+    margin-top: -0.5rem;
+  }
+
+  .processT {
+    inline-size: 7rem;
+    margin-left: -3rem;
+  }
+
+  .multi-country-text-desc {
+    inline-size: 14rem;
+    margin-left: -1.5rem;
+  }
+
+  .country-summary {
+    inline-size: 22rem;
+  }
+
+  .bg-benefits img {
+    object-fit: contain;
+  }
+
+  .sw_lifeCycle {
+    width: 36rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -8rem;
+    position: absolute;
+    background: white;
+    box-shadow: 10px 12px 5px #696969;
+  }
+
+  .sw_lifeCycle p {
+    inline-size: 24rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    line-height: 35px;
+    font-size: 1.8rem;
+  }
+  .sw_lifeCycle .headerSDLC {
+    line-height: 40px;
+    margin-left: 1rem;
+    inline-size: 32rem;
+    font-size: 1.95rem;
+  }
+  .sw_lifeCycle .sw_subheading {
+    margin-left: 1rem;
+    inline-size: 30rem;
+    font-size: 1.15rem;
+    line-height: 29px;
+  }
+
+  .agile-process {
+    margin-top: 21rem;
+  }
+
+  .sdlcprocesses .sdlc {
+    inline-size: 23rem;
+  }
+  .sdlcprocesses .closing_p,
+  .sdlcprocesses .sdlc_p {
+    inline-size: 30rem;
+  }
 }
 
 /* Medium devices  */
@@ -644,6 +818,14 @@
   .banner-content {
     inline-size: 27rem;
     font-size: 24px;
+  }
+
+  .world {
+    width: 75% !important;
+  }
+
+  .world-map {
+    margin: 1rem;
   }
 
   .header_text {
@@ -941,8 +1123,12 @@
     font-size: 56px;
   }
 
+  .world-map {
+    margin: 4rem 0 0 -3rem;
+  }
+
   .banner-content {
-    inline-size: 27rem;
+    inline-size: 40rem;
     font-size: 24px;
   }
 
@@ -1090,7 +1276,8 @@
   .main_footer {
     display: flex;
     flex-direction: row;
-  } */
+  }
+
   .f_contacts,
   .f_quicklinks,
   .f_ourtechfam {
@@ -1200,6 +1387,10 @@
   .banner-content {
     inline-size: 27rem;
     font-size: 24px;
+  }
+
+  .world-map {
+    margin: 3rem 0 0 -4rem;
   }
 
   #sdlc {

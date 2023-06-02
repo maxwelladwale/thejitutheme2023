@@ -36,8 +36,8 @@ get_header();
 <section class="section pb-5 multi-country-processes">
     <div class="container">
         <div class="row mt-5 mb-5">
-            <div class="col-md-6 col-sm-12">
-                <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/map.webp" class="img-thumbnail world-map" alt="">
+            <div class="col-md-6 col-sm-12 world">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/maps.png" class="img-thumbnail world-map" alt="">
 
             </div>
 

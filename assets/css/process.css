@@ -60,6 +60,10 @@
   word-spacing: 10px;
 }
 
+.sw_subheading{
+  color: #000000;
+}
+
 .border_stage {
   padding-top: 20px;
   background-color: linear-gradient(to left, #4c4647, #a65348, #d33733);
