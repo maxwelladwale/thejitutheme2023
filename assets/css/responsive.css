@@ -983,6 +983,25 @@
     left: 0;
   }
 
+  .home-btn{
+    background: white !important;
+    color: orange !important;
+  }
+
+  .home-btn:hover{
+    background: orange !important;
+    color: white !important;
+  }
+
+  .services-contents{
+    inline-size: 23rem;
+    word-spacing: 10px;
+  }
+
+  .testimonial-title{
+    margin-top: 3.5rem
+  }
+
   .why-jitu::before {
     content: "";
     position: absolute;
@@ -1087,7 +1106,7 @@
     inline-size: 45rem;
   }
   .testimonial-author {
-    inline-size: 12rem;
+    inline-size: 28rem;
     margin-left: 60rem;
   }
 

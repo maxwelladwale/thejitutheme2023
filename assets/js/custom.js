@@ -2,7 +2,7 @@ $(document).ready(function () {
   $(".customer-logos").slick({
     slidesToShow: 5,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 1000,
     arrows: false,
     dots: false,
