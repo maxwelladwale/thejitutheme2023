@@ -38,12 +38,15 @@
   }
 
   .jitucontact::before {
-    width: 13rem !important;
+    width: 12rem !important;
   }
 
   .jitucontact::after {
-    width: 12rem !important;
-    right: 0;
+    width: 11rem !important;
+    right: 0.95rem;
+  }
+  .progress-wrap.btn-right-side {
+    right: 7.5rem !important;
   }
 
   /* Home */
@@ -91,7 +94,7 @@
     margin: 0.5rem 3rem;
   }
   .testimonial-content {
-    inline-size: 19rem;
+    inline-size: 19rem !important;
   }
   .testimonial-author {
     inline-size: 12rem;
@@ -291,8 +294,8 @@
     content: "";
     background-color: #696969;
     position: absolute;
-    height: 37px;
-    width: 20rem;
+    height: 27px;
+    width: 13rem;
     transform: skewX(-0.24turn);
     opacity: 0.5;
     filter: blur(10px);
@@ -441,6 +444,7 @@
   #attchmentbtn {
     width: 43%;
     margin-left: 10px;
+  }
   /* Home */
   .banner::after {
     content: "";
@@ -497,7 +501,6 @@
   .testimonial-author {
     inline-size: 12rem;
     margin-left: 22rem;
-
   }
 }
 
@@ -783,6 +786,10 @@
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1850px) {
+  #extra_linkz {
+    display: none;
+  }
+
   /* Home */
   .banner::after {
     content: "";
@@ -1078,6 +1085,10 @@
 
 /* Desktops and larger screens */
 @media only screen and (min-width: 1900px) {
+  #extra_linkz {
+    display: none;
+  }
+
   .main_footer {
     display: flex;
     flex-direction: row;

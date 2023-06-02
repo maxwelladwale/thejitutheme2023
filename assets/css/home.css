@@ -71,3 +71,14 @@
 .carousel-inner {
   background-color: white;
 }
+
+#previous,
+#next{
+  background: transparent !important;
+  margin: 15rem auto;
+}
+
+#previous:hover,
+#next:hover{
+  border: none !important;
+}
