@@ -49,35 +49,41 @@ get_header();
 </section>
 
 <!-- OUR PROGRESS  section-->
-<section class="container-fluid mt-5  " style="background-color: #FCF4F4; box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);">
-    <div class="row container justify-content-center p-5" style="margin:auto;">
-            <!-- grid -->
-        <div class="col" style="width: 1650px;">
+<section class="container-fluid mt-5" id="our-progress">
+    <div class="row container justify-content-center" style="margin:auto;">
+        <!-- grid -->
+        <div class="col" style="width: 1650px;" id="grid-images">
             <div class="row">
-                <div class="col-sm-3 col-md-6 mb-5 " >
-                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="rounded" style="height: 180px; width:200px;">
-                </div>
-                <div class="col-sm-9 col-md-6 mb-5 ">
-                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="rounded" style="height: 180px; width:200px;">
+                <div id="first-row">
+                    <div class="col-sm-3 col-md-6 mb-5 ">
+                        <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="rounded">
+                    </div>
+                    <div class="col-sm-9 col-md-6 mb-5 ">
+                        <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="rounded">
+                    </div>
                 </div>
             </div>
 
 
             <div class="row">
-                <div class="col-sm-3 col-md-6 mb-5 " >
-                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="rounded" style="height: 180px; width:200px;">
-                </div>
-                <div class="col-sm-9 col-md-6 mb-5 ">
-                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="rounded" style="height: 180px; width:200px;">
+                <div id="second-row">
+                    <div class="col-sm-3 col-md-6 mb-5 ">
+                        <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="rounded">
+                    </div>
+                    <div class="col-sm-9 col-md-6 mb-5 ">
+                        <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="rounded">
+                    </div>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-sm-3 col-md-6 mb-3 " >
-                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="rounded" style="height: 180px; width:200px;">
-                </div>
-                <div class="col-sm-9 col-md-6 mb-3 ">
-                    <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="rounded" style="height: 180px; width:200px;">
+                <div id="third-row">
+                    <div class="col-sm-3 col-md-6 mb-3 ">
+                        <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="rounded">
+                    </div>
+                    <div class="col-sm-9 col-md-6 mb-3 ">
+                        <img src="http://jitu.test/wp-content/themes/thejitutheme2023/assets/img/icons/process_banner.jpg" alt="" class="rounded">
+                    </div>
                 </div>
             </div>
 
@@ -85,7 +91,7 @@ get_header();
 
 
         <div class="col col-sm-9 col-md-6  text-black p-5">
-            <div class="">
+            <div class="progress-text">
                 <h2 class="redtext mt-5">Our Progress</h2>
                 <p mt-5="">A permanent US executive team based in Nyeri,
                     Kenya provides leadership and deep subject
@@ -137,6 +143,51 @@ get_header();
 </section>
 
 <!-- HEAR FROM EMPLOYEES -->
+<section>
+    <div class="testimonials mb-5">
+        <div class="container">
+            <div class="row py-5 text-center">
+                <div class="col-12 d-flex flex-column align-items-center">
+                    <h4 class="redtext">Testimonials</h4>
+                    <h3>See what our clients have to say</h3>
+                    <p class="py-3 col-lg-6 col-sm-12">Don't just take our word for it, hear what our satisfied clients have to say about their experience working with us.</p>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/testimonial.png" class="img-thumbnail" alt="">
+                        <div class="card-body">
+                            <h5>CFO THH Holdings</h5>
+                            <h6>Kyle Fisher</h6>
+                            <p>"Using The Jitu resources has allowed our team to better leverage our domestic talent and accomplish more in less time, a win, win." </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/testimonial.png" class="img-thumbnail" alt="">
+                        <div class="card-body">
+                            <h5>Sr. Consultant AcquireTek </h5>
+                            <h6>Samir Vaghmar</h6>
+                            <p>"Leveraging The Jitu resources has allowed our team to work more efficiently. We can achieve and deliver the end product much faster while maintaining the same scope of work with reduced costs." </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/icons/testimonial.png" class="img-thumbnail" alt="">
+                        <div class="card-body">
+                            <h5>4Cloud Services </h5>
+                            <h6>Joshua Sarno</h6>
+                            <p>"Partnering with The Jitu has allowed our company to expand service levels and decrease response time, enabling us to better focus and expand our client base. Great talent and commitment from everyone involved." </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+</section>
 
 <!-- form section -->
 <section class="section jitucontact">
